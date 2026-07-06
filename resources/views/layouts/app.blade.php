@@ -336,27 +336,39 @@
         </div>
         <div class="offcanvas-body inner-mobile-nav">
             <div class="mb-body">
-            <ul class="navigation ">
-                                        <li class=" {{ request()->is('/') ? 'current-menu' : '' }} "><a href="/">Home</a>
-                                           
-                                        </li>
-                                        <li class="  {{ request()->is('about') ? 'current-menu' : '' }}"><a href="/about">About</a>
-                                         
-                                         </li>
-                                         <li class="  {{ request()->is('properties') ? 'current-menu' : '' }}"><a href="/properties">Properties</a>
-                                         
-                                         </li>
-                                         <li class="  {{ request()->is('agents') ? 'current-menu' : '' }}"><a href="/agents">Agents</a>
-                                         
-                                         </li>
-                                         <li class="  {{ request()->is('blog') ? 'current-menu' : '' }}"><a href="/blog">Blog</a>
-                                         
-                                         </li>
-                                        
-                                         <li class="  {{ request()->is('contact') ? 'current-menu' : '' }}"><a href="/contact">Contact</a>
-                                         
-                                         </li>
-                                    </ul>
+                <ul id="menu-mobile-menu">
+                    <li class="menu-item  current-menu-item">
+                        <a href="/" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
+                            aria-expanded="true" aria-controls="dropdown-menu-one">
+                            Home
+                        </a>
+                        
+                    </li>
+                    <li class="menu-item  ">
+                        <a href="/about" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
+                            aria-expanded="true" aria-controls="dropdown-menu-two">
+                            About
+                        </a>
+                        
+                    </li>
+                    <li class="menu-item  ">
+                        <a href="/properties" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
+                            aria-expanded="true" aria-controls="dropdown-menu-four">
+                            Properties
+                        </a>
+                      
+                    </li>
+                    <li class="menu-item  ">
+                        <a href="/blog" class="item-menu-mobile collapsed" data-bs-toggle="collapse"
+                            aria-expanded="true" aria-controls="dropdown-menu-five">
+                            Blogs
+                        </a>
+                         
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/contact" class="tem-menu-mobile "> Contact</a>
+                    </li>
+                </ul>
                 <div class="support">
                     <a href="#" class="text-need"> Need help?</a>
                     <ul class="mb-info">
