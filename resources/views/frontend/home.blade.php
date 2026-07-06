@@ -725,7 +725,7 @@
 
 
                <!-- section-box-team -->
-               <section class="section-box-team  style-2 tf-spacing-1 pb-0 ">
+               <section class="section-box-team  style-2   pb-0 ">
                 <div class="tf-container">
                     <div class="row">
                         <div class="col-lg-6">
@@ -2795,7 +2795,7 @@
             </section><!-- /.section-popular-searches -->
 
             <!-- .section-pre-approved -->
-            <section class="section-pre-approved tf-spacing-1">
+            <section class="section-pre-approved  " style="margin-bottom:30px !important;">
                 <div class="tf-container">
                     <div class="row">
                         <div class="col-lg-6">
@@ -3251,7 +3251,7 @@
 
 
              <!-- .section-listing  -->
-             <div class="tf-spacing-7">
+             <div class=" ">
                 <div class="tf-container">
                     <div class="row">
                         <div class="col-12">
@@ -4867,8 +4867,8 @@
             <!-- /.section-opinion -->
 
               <!-- .section-testimonials -->
-              <div class="section-testimonials style-4 tf-spacing-10">
-                <div class="tf-container">
+              <div class="section-testimonials style-4" >
+                <div class="tf-container" style="margin-top:50px !important;">
                     <div class="row">
                         <div class="col-12">
                             <div class="heading-section text-center mb-56 gap-32">
