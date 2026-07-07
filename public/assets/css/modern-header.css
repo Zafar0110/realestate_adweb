@@ -1,0 +1,442 @@
+/* ===================================
+   MODERN HEADER STYLES
+   =================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Header Container - Light Mode (Default) */
+.modern-header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafb 100%);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.modern-header.scrolled {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.12);
+    background: rgba(255, 255, 255, 0.95);
+}
+
+/* Main Header Container - Dark Mode */
+.dark-theme .modern-header {
+    background: linear-gradient(135deg, #1a1a1a 0%, #242424 100%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme .modern-header.scrolled {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    background: rgba(26, 26, 26, 0.98);
+}
+
+.header-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    gap: 40px;
+}
+
+/* Logo Section */
+.header-logo-section {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    min-width: 180px;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.logo-link:hover {
+    transform: scale(1.05);
+}
+
+.logo_header {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Navigation Menu */
+.header-nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    position: relative;
+    margin: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: 8px 18px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #333333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    letter-spacing: 0.3px;
+}
+
+/* Dark mode nav links */
+.dark-theme .nav-link {
+    color: #e0e0e0;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 18px;
+    right: 18px;
+    height: 2px;
+    background: linear-gradient(90deg, #f1913d 0%, #ff6b35 100%);
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f1913d;
+}
+
+.dark-theme .nav-link:hover {
+    color: #ff9d5c;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    transform: scaleX(1);
+}
+
+.nav-link.active {
+    color: #f1913d;
+    font-weight: 600;
+}
+
+.dark-theme .nav-link.active {
+    color: #ff9d5c;
+}
+
+/* Header Right Section */
+.header-right-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 28px;
+    flex-shrink: 0;
+}
+
+/* Contact Info */
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+    border-left: 2px solid #f0f0f0;
+    border-right: 2px solid #f0f0f0;
+}
+
+/* Dark mode contact info */
+.dark-theme .contact-info {
+    border-left: 2px solid #444444;
+    border-right: 2px solid #444444;
+}
+
+.contact-icon {
+    color: #f1913d;
+    min-width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.dark-theme .contact-icon {
+    color: #ff9d5c;
+}
+
+.contact-info:hover .contact-icon {
+    transform: scale(1.1);
+}
+
+.phone-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    white-space: nowrap;
+}
+
+/* Dark mode phone text */
+.dark-theme .phone-text {
+    color: #e0e0e0;
+}
+
+/* Buttons */
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-login {
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    text-decoration: none;
+    background: transparent;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+/* Dark mode login button */
+.dark-theme .btn-login {
+    color: #e0e0e0;
+    border-color: #444444;
+}
+
+.btn-login:hover {
+    border-color: #f1913d;
+    color: #f1913d;
+    background: rgba(241, 145, 61, 0.05);
+}
+
+.dark-theme .btn-login:hover {
+    border-color: #ff9d5c;
+    color: #ff9d5c;
+    background: rgba(255, 157, 92, 0.1);
+}
+
+.btn-register {
+    padding: 11px 28px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    background: linear-gradient(135deg, #f1913d 0%, #ff6b35 100%);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    box-shadow: 0 4px 15px rgba(241, 145, 61, 0.3);
+}
+
+.btn-register:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(241, 145, 61, 0.4);
+}
+
+.btn-register:active {
+    transform: translateY(0);
+}
+
+/* Mobile Menu Toggle */
+.mobile-menu-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+.hamburger {
+    width: 24px;
+    height: 2.5px;
+    background: #333333;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* Dark mode hamburger */
+.dark-theme .hamburger {
+    background: #e0e0e0;
+}
+
+.mobile-menu-toggle:hover .hamburger {
+    background: #f1913d;
+}
+
+.dark-theme .mobile-menu-toggle:hover .hamburger {
+    background: #ff9d5c;
+}
+
+/* Dark Mode Support - System Preference Fallback */
+@media (prefers-color-scheme: dark) {
+    .modern-header {
+        background: linear-gradient(135deg, #1a1a1a 0%, #242424 100%);
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .modern-header.scrolled {
+        background: rgba(26, 26, 26, 0.98);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-link {
+        color: #e0e0e0;
+    }
+
+    .nav-link:hover {
+        color: #ff9d5c;
+    }
+
+    .contact-info {
+        border-left: 2px solid #444444;
+        border-right: 2px solid #444444;
+    }
+
+    .contact-icon {
+        color: #ff9d5c;
+    }
+
+    .phone-text {
+        color: #e0e0e0;
+    }
+
+    .btn-login {
+        color: #e0e0e0;
+        border-color: #444444;
+    }
+
+    .btn-login:hover {
+        border-color: #ff9d5c;
+        color: #ff9d5c;
+        background: rgba(255, 157, 92, 0.1);
+    }
+
+    .hamburger {
+        background: #e0e0e0;
+    }
+
+    .mobile-menu-toggle:hover .hamburger {
+        background: #ff9d5c;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+    .header-container {
+        padding: 0 20px;
+        height: 70px;
+        gap: 20px;
+    }
+
+    .contact-info {
+        display: none;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .logo_header {
+        height: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-container {
+        padding: 0 15px;
+        height: 65px;
+    }
+
+    .logo_header {
+        height: 35px;
+    }
+
+    .btn-login {
+        display: none !important;
+    }
+
+    .btn-register {
+        padding: 9px 20px;
+        font-size: 13px;
+    }
+}
+
+/* Smooth Scroll Behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Animation for header on scroll */
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.modern-header {
+    animation: slideDown 0.4s ease;
+}
+
+/* Underline animation for nav links */
+@keyframes underlineExpand {
+    from {
+        transform: scaleX(0);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+
+/* Focus states for accessibility */
+.nav-link:focus-visible,
+.btn-login:focus-visible,
+.btn-register:focus-visible {
+    outline: 2px solid #f1913d;
+    outline-offset: 2px;
+}
+
+/* Transition for theme toggle */
+.modern-header,
+.nav-link,
+.contact-icon,
+.phone-text,
+.btn-login,
+.btn-register,
+.hamburger {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}

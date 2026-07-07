@@ -29,10 +29,13 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/animate.min.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/sib-styles.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/swiper-bundle.min.css') }}" />
-     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/styles.css') }}" /> 
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/odometer.min.css') }}" /> 
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/map.min.css') }}" /> 
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/jquery.fancybox.min.css') }}" /> 
+     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/styles.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/odometer.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/map.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/jquery.fancybox.min.css') }}" />
+
+    <!-- Modern Header CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/modern-header.css') }}" /> 
 
  
      <!-- Icon -->
@@ -443,10 +446,9 @@
 
     <script src="{{ asset('assets/js/magnific-popup.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.fancybox.js') }}"></script>
- 
- 
-    
-    
+
+    <!-- Modern Header JS -->
+    <script src="{{ asset('assets/js/modern-header.js') }}"></script>
 
 </body>
 
