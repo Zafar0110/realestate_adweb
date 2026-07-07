@@ -400,10 +400,10 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="heading-section text-center ">
-                                <h2 class="title split-text effect-right">Today’s Luxury Listings</h2>
-                                <p class="text-1 split-text split-lines-transform">Thousands of luxury home enthusiasts
-                                    just like you
-                                    visit our website.
+                                <h2 class="title split-text effect-right">UAE's Top Off-Plan Properties For Sale</h2>
+                                <p class="text-1 split-text split-lines-transform">Explore the latest off-plan property launches in Dubai and beyond, featuring studios, apartments, penthouses, villas, and townhouses.
+
+
                                 </p>
                             </div>
                             <div dir="ltr" class="swiper style-pagination tf-sw-mobile-1" data-screen="767"
@@ -412,13 +412,13 @@
                                     <div class="swiper-slide">
                                         <div class="box-house hover-img ">
                                             <div class="image-wrap">
-                                                <a href="property-detail-v1.html">
-                                                    <img class="lazyload" data-src="{{ asset('assets/images/section/box-house.jpg') }}"
-                                                        src="{{ asset('assets/images/section/box-house.jpg') }}" alt="">
-                                                </a>
+                                                <a href="/raw-district-2">
+                                                    <img class="lazyload" data-src="{{ asset('assets/images/newimages/property/Raw District/Gallery-4-10.jpg') }}"
+                                                        src="{{ asset('assets/images/newimages/property/Raw District/Gallery-4-10.jpg') }}" alt="">
+                                                </a> 
                                                 <ul class="box-tag flex gap-8 ">
-                                                    <li class="flat-tag text-4 bg-main fw-6 text_white">Featured</li>
-                                                    <li class="flat-tag text-4 bg-3 fw-6 text_white">For Sale</li>
+                                                    <li class="flat-tag text-4 bg-main fw-6 text_white">Off-plan</li>
+                                                    <li class="flat-tag text-4 bg-3 fw-6 text_white">Apartments, Office +1</li>
                                                 </ul>
                                                 <div class="list-btn flex gap-8 ">
                                                     <a href="#" class="btn-icon save hover-tooltip"><i
@@ -433,27 +433,24 @@
                                             </div>
                                             <div class="content">
                                                 <h5 class="title">
-                                                    <a href="property-detail-v1.html">Elegant studio flat</a>
+                                                    <a href="/raw-district-2">Raw District 2</a>
 
                                                 </h5>
                                                 <p class="location text-1 line-clamp-1 ">
-                                                    <i class="icon-location"></i> 102 Ingraham St, Brooklyn, NY 11237
+                                                    <i class="icon-location"></i>  Sheikh Zayed Road
                                                 </p>
                                                 <ul class="meta-list flex">
                                                     <li class="text-1 flex"><span>3</span>Beds</li>
                                                     <li class="text-1 flex"><span>3</span>Baths</li>
-                                                    <li class="text-1 flex"><span>4,043</span>Sqft</li>
+                                                    <li class="text-1 flex"><span>850 – 3,200 </span>Sqft</li>
                                                 </ul>
                                                 <div class="bot flex justify-between items-center">
                                                     <h5 class="price">
-                                                        $8.600
+                                                    AED 666K
                                                     </h5>
                                                     <div class="wrap-btn flex">
-                                                        <a href="#" class="compare flex gap-8 items-center text-1">
-                                                            <i class="icon-compare"></i>
-                                                            Compare
-                                                        </a>
-                                                        <a href="property-detail-v1.html"
+                                                         
+                                                        <a href="/raw-district-2"
                                                             class="tf-btn style-border pd-4">Details</a>
                                                     </div>
                                                 </div>

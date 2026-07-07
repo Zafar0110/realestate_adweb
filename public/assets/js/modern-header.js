@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const body = document.body;
     observer.observe(body, { attributes: true, attributeFilter: ['class'] });
 
-    // Set active nav link based on current page
+    // Set active nav link based on current page with animation
     const currentPath = window.location.pathname;
     const navLinks = document.querySelectorAll('.nav-link');
 
@@ -44,9 +44,25 @@ document.addEventListener('DOMContentLoaded', function() {
         const href = link.getAttribute('href');
         if (href === currentPath || (href === '/' && currentPath === '/')) {
             link.classList.add('active');
+            // Trigger animation by adding a small delay for the active state
+            setTimeout(() => {
+                link.style.animation = 'none';
+                link.offsetHeight; // Trigger reflow
+                link.style.animation = '';
+            }, 50);
         } else {
             link.classList.remove('active');
         }
+    });
+
+    // Add smooth animation when switching between tabs
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            // Remove active class from all links
+            navLinks.forEach(l => l.classList.remove('active'));
+            // Add active class to clicked link
+            this.classList.add('active');
+        });
     });
 
     // Close mobile menu when a link is clicked

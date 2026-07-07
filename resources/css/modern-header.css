@@ -113,30 +113,40 @@
     color: #e0e0e0;
 }
 
+/* Animated Underline for Nav Links - Thin Single Line */
 .nav-link::after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 18px;
     right: 18px;
-    height: 2px;
-    background: linear-gradient(90deg, #f1913d 0%, #ff6b35 100%);
+    height: 1.5px;
+    background: linear-gradient(90deg, #f1913d 0%, #ff6b35 50%, #f1913d 100%);
+    background-size: 200% 100%;
     transform: scaleX(0);
     transform-origin: center;
     transition: transform 0.3s ease;
 }
 
+/* Active link - Show underline and animate continuously */
+.nav-link.active::after {
+    transform: scaleX(1);
+    animation: underwaveFlow 3s ease-in-out infinite, underwaveGlow 2.5s ease-in-out infinite;
+}
+
+/* Hover effect - Show and animate */
+.nav-link:hover::after {
+    transform: scaleX(1);
+    animation: underwaveFlow 3s ease-in-out infinite, underwaveGlow 2.5s ease-in-out infinite;
+}
+
+/* Color transition on hover and active */
 .nav-link:hover {
     color: #f1913d;
 }
 
 .dark-theme .nav-link:hover {
     color: #ff9d5c;
-}
-
-.nav-link:hover::after,
-.nav-link.active::after {
-    transform: scaleX(1);
 }
 
 .nav-link.active {
@@ -412,13 +422,29 @@ html {
     animation: slideDown 0.4s ease;
 }
 
-/* Underline animation for nav links */
-@keyframes underlineExpand {
-    from {
-        transform: scaleX(0);
+/* Continuous Wave Flow Animation - Main Layer */
+@keyframes underwaveFlow {
+    0% {
+        background-position: 0% center;
     }
-    to {
-        transform: scaleX(1);
+    50% {
+        background-position: 100% center;
+    }
+    100% {
+        background-position: 0% center;
+    }
+}
+
+/* Glow Effect Animation - Creates shimmer/glow */
+@keyframes underwaveGlow {
+    0% {
+        filter: brightness(0.9) drop-shadow(0 0 2px rgba(241, 145, 61, 0.3));
+    }
+    50% {
+        filter: brightness(1.1) drop-shadow(0 0 6px rgba(255, 107, 53, 0.4));
+    }
+    100% {
+        filter: brightness(0.9) drop-shadow(0 0 2px rgba(241, 145, 61, 0.3));
     }
 }
 

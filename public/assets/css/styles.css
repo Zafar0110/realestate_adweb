@@ -11514,7 +11514,8 @@ tr {
   font-weight: 400;
 }
 .page-title.home01, .page-title.home05, .page-title.career {
-  background-image: url(../images/section/page-title-1.jpg);
+  /* background-image: url(../images/section/page-title-1.jpg); */
+  background-image: url(../images/newimages/home/qw4pfxhl-dubaiskyline-1.jpg);
   background-attachment: fixed;
   padding: 154px 0 258px;
   background-size: cover;

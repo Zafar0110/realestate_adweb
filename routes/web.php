@@ -22,3 +22,4 @@ Route::get('/contact', [frontEndController::class, 'contact'])->name('contact');
 Route::get('/property-detailed', [frontEndController::class, 'property_detailed'])->name('property_detailed');
 Route::get('/agent-detailed', [frontEndController::class, 'agent_detailed'])->name('agent_detailed');
 
+Route::get('/raw-district-2', [frontEndController::class, 'raw_district'])->name('raw_district');

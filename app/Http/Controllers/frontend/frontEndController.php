@@ -80,6 +80,22 @@ class frontEndController extends Controller
         ];
         return view('frontend.agent_detailed', compact('seo'));
     }
+
+
+    public function raw_district()
+    {
+        $seo = [
+            'title' => 'agent_detailed',
+            'description' => 'agent_detailed',
+            'keywords' => 'agent_detailed'
+        ];
+        return view('property.raw_district', compact('seo'));
+    }
+
+
+
+
+    
     
     
 }
