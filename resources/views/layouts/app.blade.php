@@ -450,6 +450,9 @@
     <!-- Modern Header JS -->
     <script src="{{ asset('assets/js/modern-header.js') }}"></script>
 
+    <!-- Loan Calculator JS -->
+    <script src="{{ asset('assets/js/loan-calculator.js') }}"></script>
+
 </body>
 
 
