@@ -7720,6 +7720,56 @@ tr {
 .box-house.style-list .content .location {
   margin-bottom: 23px;
 }
+/* Fix for ALL swiper slides with box-house cards */
+.swiper-slide .box-house {
+  height: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.swiper-slide .box-house .image-wrap {
+  height: 250px !important;
+  flex-shrink: 0 !important;
+}
+
+.swiper-slide .box-house .content {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.swiper-slide .box-house .wrap-btn {
+  margin-top: auto !important;
+}
+
+/* Specific fixes for Popular Searches section */
+.section-popular-searches .swiper-slide {
+  height: auto !important;
+  display: flex !important;
+  align-items: stretch !important;
+}
+
+.section-popular-searches .swiper-wrapper {
+  align-items: stretch !important;
+}
+
+.section-popular-searches .box-house {
+  height: 100% !important;
+}
+
+.section-popular-searches .box-house .image-wrap {
+  height: 250px !important;
+  min-height: 250px !important;
+}
+
+.section-popular-searches .box-house .content {
+  flex: 1 !important;
+}
+
+.section-popular-searches .box-house .wrap-btn {
+  margin-top: auto !important;
+}
+
 .box-house.style-list .meta-list {
   gap: 8px 45px;
   padding-bottom: 24px;
