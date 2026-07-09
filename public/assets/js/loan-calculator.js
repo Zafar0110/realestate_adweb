@@ -15,8 +15,107 @@ document.addEventListener('DOMContentLoaded', function() {
     const calculateBtn = form.querySelector('.tf-btn.bg-color-primary');
     const resetBtn = form.querySelector('.tf-btn.style-border');
 
+    // Create alert notification container
+    function createNotification() {
+        let notification = document.getElementById('calculator-notification');
+        if (!notification) {
+            notification = document.createElement('div');
+            notification.id = 'calculator-notification';
+            notification.style.cssText = `
+                position: fixed;
+                top: 120px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: linear-gradient(135deg, #f1913d 0%, #ff6b35 100%);
+                color: white;
+                padding: 20px 30px;
+                border-radius: 12px;
+                box-shadow: 0 8px 25px rgba(241, 145, 61, 0.4);
+                z-index: 9999;
+                max-width: 500px;
+                font-weight: 600;
+                font-size: 16px;
+                text-align: center;
+                animation: slideDown 0.5s ease;
+                display: none;
+            `;
+            document.body.appendChild(notification);
+        }
+        return notification;
+    }
+
+    // Show notification with result
+    function showResultNotification(monthlyPayment) {
+        const notification = createNotification();
+        notification.innerHTML = `
+            <div style="margin-bottom: 10px; font-size: 14px; opacity: 0.9;">Your Estimated Monthly Payment</div>
+            <div style="font-size: 28px; font-weight: 700;">$${monthlyPayment}</div>
+        `;
+        notification.style.display = 'block';
+
+        // Auto-hide after 5 seconds
+        setTimeout(() => {
+            notification.style.display = 'none';
+        }, 5000);
+    }
+
+    // Add CSS for error messages to document
+    const style = document.createElement('style');
+    style.textContent = `
+        .loan-calc-error {
+            color: #ff4757 !important;
+            font-size: 13px !important;
+            margin-top: 6px !important;
+            font-weight: 500 !important;
+            display: block !important;
+        }
+        @keyframes slideDown {
+            from {
+                transform: translateX(-50%) translateY(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(-50%) translateY(0);
+                opacity: 1;
+            }
+        }
+    `;
+    document.head.appendChild(style);
+
+    // Clear error messages
+    function clearErrors() {
+        const errorMessages = document.querySelectorAll('.loan-calc-error');
+        errorMessages.forEach(msg => msg.remove());
+    }
+
+    // Show error message below input
+    function showFieldError(fieldSelector, message) {
+        const field = document.querySelector(fieldSelector);
+        if (field) {
+            // Remove existing errors for this field
+            const existingError = field.nextElementSibling;
+            if (existingError && existingError.classList.contains('loan-calc-error')) {
+                existingError.remove();
+            }
+
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'loan-calc-error';
+            errorDiv.style.cssText = `
+                color: #ff4757;
+                font-size: 13px;
+                margin-top: 6px;
+                font-weight: 500;
+                display: block;
+            `;
+            errorDiv.textContent = message;
+            field.parentElement.appendChild(errorDiv);
+        }
+    }
+
     // Calculate monthly payment
-    function calculateMonthlyPayment() {
+    function calculateMonthlyPayment(showAlert = false) {
+        clearErrors();
+
         const totalAmount = parseFloat(amountInput.value) || 0;
         const downPayment = parseFloat(paymentInput.value) || 0;
         const annualRate = parseFloat(interestRateInput.value) || 0;
@@ -33,17 +132,49 @@ document.addEventListener('DOMContentLoaded', function() {
             months = match ? parseInt(match[1]) : 0;
         }
 
-        // Validate inputs
-        if (totalAmount <= 0 || downPayment < 0 || annualRate < 0 || months <= 0) {
+        // Validate Amortization Period first
+        if (months <= 0) {
             resultSpan.textContent = '0.00';
+            if (showAlert) {
+                showFieldError('.form-pre-approved .nice-select', 'Please select an amortization period');
+            }
             return;
         }
 
-        // Calculate principal (loan amount)
-        const principal = totalAmount - downPayment;
+        // Validate Total Amount
+        if (totalAmount <= 0) {
+            resultSpan.textContent = '0.00';
+            if (showAlert) {
+                showFieldError('#amount', 'Please enter a valid total amount');
+            }
+            return;
+        }
 
+        // Validate Down Payment
+        if (downPayment < 0) {
+            resultSpan.textContent = '0.00';
+            if (showAlert) {
+                showFieldError('#payment', 'Down payment cannot be negative');
+            }
+            return;
+        }
+
+        // Validate Down Payment is not greater than Total Amount
+        const principal = totalAmount - downPayment;
         if (principal <= 0) {
             resultSpan.textContent = '0.00';
+            if (showAlert) {
+                showFieldError('#payment', 'Down payment cannot be equal to or greater than total amount');
+            }
+            return;
+        }
+
+        // Validate Interest Rate
+        if (annualRate < 0) {
+            resultSpan.textContent = '0.00';
+            if (showAlert) {
+                showFieldError('#interestRate', 'Interest rate cannot be negative');
+            }
             return;
         }
 
@@ -66,8 +197,19 @@ document.addEventListener('DOMContentLoaded', function() {
         const monthlyInsurance = homeInsurance / 12;
         const totalMonthlyPayment = monthlyPayment + monthlyTax + monthlyInsurance;
 
+        // Format the result (without adding $ here since showResultNotification adds it)
+        const formattedValue = totalMonthlyPayment.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        const formattedResult = '$' + formattedValue;
+
         // Update result with formatted currency
-        resultSpan.textContent = '$' + totalMonthlyPayment.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        resultSpan.textContent = formattedResult;
+
+        // Show alert notification if requested
+        if (showAlert) {
+            showResultNotification(formattedValue);
+        }
+
+        return totalMonthlyPayment;
     }
 
     // Update down payment percentage based on amount
@@ -98,42 +240,42 @@ document.addEventListener('DOMContentLoaded', function() {
     // Event listeners for real-time calculation
     amountInput.addEventListener('input', function() {
         updateDownPaymentPercent();
-        calculateMonthlyPayment();
+        calculateMonthlyPayment(false);
     });
 
     paymentInput.addEventListener('input', function() {
         updateDownPaymentPercent();
-        calculateMonthlyPayment();
+        calculateMonthlyPayment(false);
     });
 
     percentInput.addEventListener('input', function() {
         updateDownPaymentFromPercent();
-        calculateMonthlyPayment();
+        calculateMonthlyPayment(false);
     });
 
     interestRateInput.addEventListener('input', function() {
-        calculateMonthlyPayment();
+        calculateMonthlyPayment(false);
     });
 
     taxInput.addEventListener('input', function() {
-        calculateMonthlyPayment();
+        calculateMonthlyPayment(false);
     });
 
     insuranceInput.addEventListener('input', function() {
-        calculateMonthlyPayment();
+        calculateMonthlyPayment(false);
     });
 
     // Handle amortization period selection
     if (amortizationSelect) {
         amortizationSelect.addEventListener('click', function() {
             setTimeout(() => {
-                calculateMonthlyPayment();
+                calculateMonthlyPayment(false);
             }, 100);
         });
 
         // Also watch for when nice-select updates the current value
         const observer = new MutationObserver(function() {
-            calculateMonthlyPayment();
+            calculateMonthlyPayment(false);
         });
 
         const currentSpan = amortizationSelect.querySelector('.current');
@@ -142,11 +284,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Calculate button click
+    // Calculate button click - shows alert notification
     if (calculateBtn) {
         calculateBtn.addEventListener('click', function(e) {
             e.preventDefault();
-            calculateMonthlyPayment();
+            calculateMonthlyPayment(true);
         });
     }
 
@@ -162,6 +304,15 @@ document.addEventListener('DOMContentLoaded', function() {
             insuranceInput.value = '';
             resultSpan.textContent = '0.00';
 
+            // Clear error messages
+            clearErrors();
+
+            // Hide notification
+            const notification = document.getElementById('calculator-notification');
+            if (notification) {
+                notification.style.display = 'none';
+            }
+
             // Reset dropdown
             if (amortizationSelect) {
                 const options = amortizationSelect.querySelectorAll('.option');
@@ -175,7 +326,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Initial calculation on page load
-    calculateMonthlyPayment();
+    calculateMonthlyPayment(false);
 });
 
 // Format currency input as user types
