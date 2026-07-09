@@ -8841,6 +8841,7 @@ tr {
 }
 .box-location .image-wrap a {
   position: relative;
+  height: 100%;
 }
 .box-location .image-wrap a::after {
   position: absolute;

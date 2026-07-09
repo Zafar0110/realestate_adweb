@@ -41,28 +41,27 @@
                             </div>
                         </div>
                     </div>
-                    <div class="footer-main">
-                        <div class="row">
+                    <div class="footer-main" style="display:none;">
+                        <div class="row" >
                             <div class="col-lg-3 col-md-6">
                                 <div class="footer-menu-list footer-col-block style-2">
                                     <h5 class="title lh-30 title-desktop">About us</h5>
                                     <h5 class="title lh-30 title-mobile">About us</h5>
                                     <ul class="tf-collapse-content">
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="service-details.html">Why choose us?</a></li>
-                                        <li><a href="#">Customer reviews</a></li>
-                                        <li><a href="agents.html">Our team</a></li>
-                                        <li><a href="career.html">Careers with realty</a></li>
-                                        <li><a href="career.html">Work with us</a></li>
+                                        <li><a href="/contact">Contact</a></li>
+                                        <li><a href="/agents">Agents</a></li>
+                                        <li><a href="/properties">Properties</a></li>
+                                        <li><a href="/blog">Blog</a></li>
+
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="footer-menu-list footer-col-block">
+                            <div class="col-lg-3 col-md-6" >
+                                <div class="footer-menu-list footer-col-block" style="display:none;">
                                     <h5 class="title lh-30 title-desktop">Popular house</h5>
                                     <h5 class="title lh-30 title-mobile">Popular house</h5>
                                     <ul class="tf-collapse-content">
-                                        <li><a href="property-gird.html">#Penthouses</a></li>
+                                        <li><a href="property-gird.html"></a></li>
                                         <li><a href="property-gird.html">#Villa</a></li>
                                         <li><a href="property-gird.html">#Smart home</a></li>
                                         <li><a href="property-gird.html">#Apartments</a></li>
@@ -72,7 +71,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6">
-                                <div class="footer-menu-list footer-col-block style-2">
+                                <div class="footer-menu-list footer-col-block style-2" style="display:none;">
                                     <h5 class="title lh-30 title-desktop">Quick links</h5>
                                     <h5 class="title lh-30 title-mobile">Quick links</h5>
                                     <ul class="tf-collapse-content">

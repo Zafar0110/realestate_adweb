@@ -2582,66 +2582,66 @@
                             </div>
                             <div class="box-location hover-img item-3">
                                 <div class="image-wrap">
-                                    <a href="#">
-                                        <img class="lazyload" data-src="{{ asset('assets/images/section/location-11.jpg') }}  "
-                                            src="{{ asset('assets/images/section/location-11.jpg') }}  " alt="">
+                                    <a href="/haus-Of-tenet">
+                                        <img class="lazyload" data-src="{{ asset('assets/images/newimages/property/Tenet/Gallery-1-7.jpg') }}  "
+                                            src="{{ asset('assets/images/newimages/property/Tenet/Gallery-1-7.jpg') }}  " alt="">
                                     </a>
                                 </div>
                                 <div class="content">
-                                    <h6 class="text_white">New York</h6>
-                                    <a href="#" class="text-1 tf-btn style-border pd-23 text_white">2.491 Properties <i
+                                    <h6 class="text_white">Business Bay</h6>
+                                    <a href="/haus-Of-tenet" class="text-1 tf-btn style-border pd-23 text_white">View Detailed <i
                                             class="icon-arrow-right"></i></a>
                                 </div>
                             </div>
                             <div class="box-location hover-img item-4">
                                 <div class="image-wrap">
-                                    <a href="#">
-                                        <img class="lazyload" data-src="{{ asset('assets/images/section/location-12.jpg') }}  "
-                                            src="{{ asset('assets/images/section/location-12.jpg') }}  " alt="">
+                                    <a href="/lumena-alta">
+                                        <img class="lazyload" data-src="{{ asset('assets/images/newimages/property/Lumena/alta-g-3.jpg') }}  "
+                                            src="{{ asset('assets/images/newimages/property/Lumena/alta-g-3.jpg') }}  " alt="">
                                     </a>
                                 </div>
                                 <div class="content">
-                                    <h6 class="text_white">New York</h6>
-                                    <a href="#" class="text-1 tf-btn style-border pd-23 text_white">2.491 Properties <i
+                                    <h6 class="text_white">Business Bay</h6>
+                                    <a href="/lumena-alta" class="text-1 tf-btn style-border pd-23 text_white">View Detailed <i
                                             class="icon-arrow-right"></i></a>
                                 </div>
                             </div>
                             <div class="box-location hover-img item-5">
                                 <div class="image-wrap">
-                                    <a href="#">
-                                        <img class="lazyload" data-src="{{ asset('assets/images/section/location-13.jpg') }} "
-                                            src="{{ asset('assets/images/section/location-13.jpg') }}  " alt="">
+                                    <a href="/como-residences-by-nakheel">
+                                        <img class="lazyload" data-src="{{ asset('assets/images/newimages/property/Nakheel/como-img-1.jpg') }} "
+                                            src="{{ asset('assets/images/newimages/property/Nakheel/como-img-1.jpg') }}  " alt="">
                                     </a>
                                 </div>
                                 <div class="content">
-                                    <h6 class="text_white">New York</h6>
-                                    <a href="#" class="text-1 tf-btn style-border pd-23 text_white">2.491 Properties <i
+                                    <h6 class="text_white">Palm Jumeirah</h6>
+                                    <a href="/como-residences-by-nakheel" class="text-1 tf-btn style-border pd-23 text_white">View Detailed <i
                                             class="icon-arrow-right"></i></a>
                                 </div>
                             </div>
                             <div class="box-location hover-img item-6">
                                 <div class="image-wrap">
-                                    <a href="#">
+                                    <a href="/one-residence">
                                         <img class="lazyload" data-src="{{ asset('assets/images/section/location-14.jpg') }}  "
                                             src="{{ asset('assets/images/section/location-14.jpg') }}  " alt="">
                                     </a>
                                 </div>
                                 <div class="content">
-                                    <h6 class="text_white">New York</h6>
-                                    <a href="#" class="text-1 tf-btn style-border pd-23 text_white">2.491 Properties <i
+                                    <h6 class="text_white">Downtown Dubai</h6>
+                                    <a href="/one-residence" class="text-1 tf-btn style-border pd-23 text_white">View Detailed <i
                                             class="icon-arrow-right"></i></a>
                                 </div>
                             </div>
                             <div class="box-location hover-img item-7">
                                 <div class="image-wrap">
-                                    <a href="#">
-                                        <img class="lazyload" data-src="{{ asset('assets/images/section/location-15.jpg') }}    "
-                                            src="{{ asset('assets/images/section/location-15.jpg') }}    " alt="">
+                                    <a href="/habtoor-grand-residences">
+                                        <img class="lazyload" data-src="{{ asset('assets/images/newimages/property/Habtoor/habtoor-10.jpg') }}    "
+                                            src="{{ asset('assets/images/newimages/property/Habtoor/habtoor-10.jpg') }}    " alt="">
                                     </a>
                                 </div>
                                 <div class="content">
-                                    <h6 class="text_white">New York</h6>
-                                    <a href="#" class="text-1 tf-btn style-border pd-23 text_white">2.491 Properties <i
+                                    <h6 class="text_white">Dubai Marina</h6>
+                                    <a href="/habtoor-grand-residences" class="text-1 tf-btn style-border pd-23 text_white">View Detailed <i
                                             class="icon-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -2921,14 +2921,11 @@
                                 <div class="left">
                                     <h2 class="title split-text effect-right mb-31">View our current property listing
                                     </h2>
-                                    <p class="text-1 split-text split-lines-transform">Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit.
-                                        Fusce sit amet dapibus justo. Nam nec libero diam. <br> Pellentesque vel
-                                        efficitur justo. Ut at ipsum turpis.
+                                    <p class="text-1 split-text split-lines-transform">Discover premium properties across Dubai's most sought-after communities. Explore off-plan projects, luxury apartments, villas, and investment opportunities tailored to your lifestyle and financial goals.
                                     </p>
                                 </div>
                                 <div class="right">
-                                    <a href="#"
+                                    <a href="/properties"
                                         class="tf-btn bg-color-primary rounded-cycle height-3 pd-25 wow animate__fadeInUp animate__animated">
                                         View all listing
                                         <i class="icon-arrow-up-right"></i>
@@ -2946,32 +2943,32 @@
                                     <div class="col-lg-4 left">
                                         <div class="content">
                                             <div class="heading ">
-                                                <div class="title text-13 text-color-heading fw-5 mb-13">
-                                                    Nextgen riverside 152
+                                               <a href="/hudayriyat-golf-estates">
+                                               <div class="title text-13 text-color-heading fw-5 mb-13">
+                                                Hudayriyat Golf Estates
                                                 </div>
+                                               </a>
                                                 <p class="location text-1 flex text-color-default items-center ">
-                                                    <i class="icon-location-5"></i> 102 Ingraham St, Brooklyn,
-                                                    NY
-                                                    11237
+                                                    <i class="icon-location-5"></i> Al Hudayriat Island
                                                 </p>
                                             </div>
                                             <div class="info d-flex">
                                                 <div class="item">
-                                                    <span class="number text-15 fw-2 text-color-heading ">4</span>
+                                                    <span class="number text-15 fw-2 text-color-heading ">6</span>
                                                     <div class="box-icon d-flex gap-8 align-items-center">
                                                         <i class="icon-bed-4"></i>
                                                         <span class="text-color-default text-1">Beds</span>
                                                     </div>
                                                 </div>
                                                 <div class="item">
-                                                    <span class="number text-15 fw-2 text-color-heading ">3</span>
+                                                    <span class="number text-15 fw-2 text-color-heading ">6</span>
                                                     <div class="box-icon d-flex gap-8 align-items-center">
                                                         <i class="icon-baths"></i>
                                                         <span class="text-color-default text-1">Baths</span>
                                                     </div>
                                                 </div>
                                                 <div class="item">
-                                                    <span class="number text-15 fw-2 text-color-heading">1,484</span>
+                                                    <span class="number text-15 fw-2 text-color-heading">2030</span>
                                                     <div class="box-icon d-flex gap-8 align-items-center">
                                                         <div>
                                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -2987,19 +2984,19 @@
                                                                     stroke-linejoin="round" />
                                                             </svg>
                                                         </div>
-                                                        <span class="text-color-default text-1">sqft</span>
+                                                        <span class="text-color-default text-1">Handover</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="text-15 fw-2 text-color-heading">
-                                                $1,250,000
+                                            AED 4.25M
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-8 right">
                                         <div class="img-style">
-                                            <img class="lazyload" data-src="{{ asset('assets/images/section/box-listing-6.jpg') }}"
-                                                src="{{ asset('assets/images/section/box-listing-6.jpg') }}" alt="">
+                                            <img class="lazyload" data-src="{{ asset('assets/images/newimages/property/Hudayriyat/gallery-4-8.jpg') }}"
+                                                src="{{ asset('assets/images/newimages/property/Hudayriyat/gallery-4-8.jpg') }}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -3011,13 +3008,13 @@
                                     <div class="col-lg-4 left">
                                         <div class="content">
                                             <div class="heading ">
-                                                <div class="title text-13 text-color-heading fw-5 mb-13">
-                                                    Nextgen riverside 152
+                                            <a href="/fairmont-residences-solara-tower">
+                                               <div class="title text-13 text-color-heading fw-5 mb-13">
+                                               Fairmont Residences Solara Tower
                                                 </div>
+                                               </a>
                                                 <p class="location text-1 flex items-center gap-6">
-                                                    <i class="icon-location-5"></i> 102 Ingraham St, Brooklyn,
-                                                    NY
-                                                    11237
+                                                    <i class="icon-location-5"></i> Downtown Dubai
                                                 </p>
                                             </div>
                                             <div class="info d-flex">
@@ -3036,7 +3033,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="item">
-                                                    <span class="number text-15 fw-2 text-color-heading">1,484</span>
+                                                    <span class="number text-15 fw-2 text-color-heading">2027</span>
                                                     <div class="box-icon d-flex gap-8 align-items-center">
                                                         <div>
                                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -3052,19 +3049,19 @@
                                                                     stroke-linejoin="round" />
                                                             </svg>
                                                         </div>
-                                                        <span class="text-color-default text-1">sqft</span>
+                                                        <span class="text-color-default text-1">Handover</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="text-15 fw-2 text-color-heading">
-                                                $1,250,000
+                                            AED 2,900,000
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-8 right">
                                         <div class="img-style">
-                                            <img class="lazyload" data-src="{{ asset('assets/images/section/box-listing-7.jpg') }}  "
-                                                src="{{ asset('assets/images/section/box-listing-7.jpg') }}" alt="">
+                                            <img class="lazyload" data-src="{{ asset('assets/images/newimages/property/Fairmont/solara-4.jpg') }}  "
+                                                src="{{ asset('assets/images/newimages/property/Fairmont/solara-4.jpg') }}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -3076,13 +3073,13 @@
                                     <div class="col-lg-4 left">
                                         <div class="content">
                                             <div class="heading ">
-                                                <div class="title text-13 text-color-heading fw-5 mb-13">
-                                                    Nextgen riverside 152
+                                            <a href="/habtoor-grand-residences">
+                                               <div class="title text-13 text-color-heading fw-5 mb-13">
+                                               Habtoor Grand Residences
                                                 </div>
+                                               </a>
                                                 <p class="location text-1 flex items-center gap-6">
-                                                    <i class="icon-location-5"></i> 102 Ingraham St, Brooklyn,
-                                                    NY
-                                                    11237
+                                                    <i class="icon-location-5"></i> Dubai Marina
                                                 </p>
                                             </div>
                                             <div class="info d-flex">
@@ -3101,7 +3098,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="item">
-                                                    <span class="number text-15 fw-2 text-color-heading">1,484</span>
+                                                    <span class="number text-15 fw-2 text-color-heading">2027</span>
                                                     <div class="box-icon d-flex gap-8 align-items-center">
                                                         <div>
                                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -3117,19 +3114,19 @@
                                                                     stroke-linejoin="round" />
                                                             </svg>
                                                         </div>
-                                                        <span class="text-color-default text-1">sqft</span>
+                                                        <span class="text-color-default text-1">Handover</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="text-15 fw-2 text-color-heading">
-                                                $1,250,000
+                                            AED 11,000,000
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-8 right">
                                         <div class="img-style">
-                                            <img class="lazyload" data-src="{{ asset('assets/images/section/box-listing-6.jpg') }}"
-                                                src="{{ asset('assets/images/section/box-listing-8.jpg') }}" alt="">
+                                            <img class="lazyload" data-src="{{ asset('assets/images/newimages/property/Habtoor/habtoor-10.jpg') }}"
+                                                src="{{ asset('assets/images/newimages/property/Habtoor/habtoor-10.jpg') }}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -3141,13 +3138,14 @@
                                     <div class="col-lg-4 left">
                                         <div class="content">
                                             <div class="heading ">
-                                                <div class="title text-13 text-color-heading fw-5 mb-13">
-                                                    Nextgen riverside 152
+                                            <a href="/lumena-alta">
+                                               <div class="title text-13 text-color-heading fw-5 mb-13">
+                                               Lumena Alta
+
                                                 </div>
+                                               </a>
                                                 <p class="location text-1 flex items-center gap-6">
-                                                    <i class="icon-location-5"></i> 102 Ingraham St, Brooklyn,
-                                                    NY
-                                                    11237
+                                                    <i class="icon-location-5"></i> Business Bay
                                                 </p>
                                             </div>
                                             <div class="info d-flex">
@@ -3166,7 +3164,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="item">
-                                                    <span class="number text-15 fw-2 text-color-heading">1,484</span>
+                                                    <span class="number text-15 fw-2 text-color-heading">2029</span>
                                                     <div class="box-icon d-flex gap-8 align-items-center">
                                                         <div>
                                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -3182,19 +3180,19 @@
                                                                     stroke-linejoin="round" />
                                                             </svg>
                                                         </div>
-                                                        <span class="text-color-default text-1">sqft</span>
+                                                        <span class="text-color-default text-1">Handover</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="text-15 fw-2 text-color-heading">
-                                                $1,250,000
+                                            AED 19,000,000
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-8 right">
                                         <div class="img-style">
-                                            <img class="lazyload" data-src="{{ asset('assets/images/section/box-listing-9.jpg') }}"
-                                                src="{{ asset('assets/images/section/box-listing-9.jpg') }}" alt="">
+                                            <img class="lazyload" data-src="{{ asset('assets/images/newimages/property/Lumena/alta-g-7.jpg') }}"
+                                                src="{{ asset('assets/images/newimages/property/Lumena/alta-g-7.jpg') }}" alt="">
                                         </div>
                                     </div>
                                 </div>
