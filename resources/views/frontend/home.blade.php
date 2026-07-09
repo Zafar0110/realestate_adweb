@@ -817,7 +817,7 @@
                                     Business Bay
                                         <span class="tooltip">20 Listing</span>
                                     </li>
-                                    <li class="item-title hover-tooltip">
+                                    <li class="item-title hover-tooltip" style="display:none !important;">
                                         Colorado
                                         <span class="tooltip">9 Listing</span>
                                     </li>
@@ -1861,16 +1861,15 @@
                                                 <div class="swiper-slide">
                                                     <div class="box-house hover-img ">
                                                         <div class="image-wrap">
-                                                            <a href="property-detail-v1.html">
+                                                            <a href="/avarra">
                                                                 <img class="lazyload"
-                                                                    data-src="{{ asset('assets/images/section/box-house-12.jpg') }}  "
-                                                                    src="{{ asset('assets/images/section/box-house-12.jpg') }}  " alt="">
+                                                                    data-src="{{ asset('assets/images/newimages/property/avarra/Gallery-4-26.jpg') }}  "
+                                                                    src="{{ asset('assets/images/newimages/property/avarra/Gallery-4-26.jpg') }}  " alt="">
                                                             </a>
                                                             <ul class="box-tag flex gap-8 ">
                                                                 <li class="flat-tag text-4 bg-main fw-6 text_white">
-                                                                    Featured</li>
-                                                                <li class="flat-tag text-4 bg-3 fw-6 text_white">For
-                                                                    Sale</li>
+                                                                Off-plan</li>
+                                                                <li class="flat-tag text-4 bg-3 fw-6 text_white">Apartments</li>
                                                             </ul>
                                                             <div class="list-btn flex gap-8 ">
                                                                 <a href="#" class="btn-icon save hover-tooltip"><i
@@ -1885,36 +1884,24 @@
                                                         </div>
                                                         <div class="content">
                                                             <h5 class="title">
-                                                                <a href="property-detail-v1.html">Elegant studio
-                                                                    flat</a>
+                                                                <a href="/avarra">Avarra</a>
 
                                                             </h5>
                                                             <p class="location text-1 flex items-center gap-8">
-                                                                <i class="icon-location"></i> Ingraham St, Brooklyn, NY
-                                                                11237
+                                                                <i class="icon-location"></i> Business Bay
                                                             </p>
                                                             <ul class="meta-list flex">
-                                                                <li class="text-1 flex"><span>3</span>Beds</li>
-                                                                <li class="text-1 flex"><span>3</span>Baths</li>
-                                                                <li class="text-1 flex"><span>4,043</span>Sqft</li>
+                                                                <li class="text-1 flex"><span>1, 2, 3, 4</span>Beds</li>
+                                                                <li class="text-1 flex"><span>1, 2, 3, 4</span>Baths</li>
+                                                                <li class="text-1 flex"><span>850 – 3,200</span>Sqft</li>
                                                             </ul>
                                                             <div class="bot flex justify-between items-center">
                                                                 <h5 class="price">
-                                                                    $8.600
+                                                                AED 2.7M
                                                                 </h5>
                                                                 <div class="wrap-btn flex">
-                                                                    <a href="#"
-                                                                        class="compare flex gap-8 items-center text-1"><svg
-                                                                            width="20" height="20" viewBox="0 0 20 20"
-                                                                            fill="none"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M16.6922 14.1922L14.1922 16.6922C14.0749 16.8095 13.9159 16.8754 13.75 16.8754C13.5842 16.8754 13.4251 16.8095 13.3078 16.6922C13.1905 16.5749 13.1247 16.4159 13.1247 16.25C13.1247 16.0842 13.1905 15.9251 13.3078 15.8078L14.7414 14.375H3.75C3.58424 14.375 3.42527 14.3092 3.30806 14.192C3.19085 14.0747 3.125 13.9158 3.125 13.75C3.125 13.5843 3.19085 13.4253 3.30806 13.3081C3.42527 13.1909 3.58424 13.125 3.75 13.125H14.7414L13.3078 11.6922C13.1905 11.5749 13.1247 11.4159 13.1247 11.25C13.1247 11.0842 13.1905 10.9251 13.3078 10.8078C13.4251 10.6905 13.5842 10.6247 13.75 10.6247C13.9159 10.6247 14.0749 10.6905 14.1922 10.8078L16.6922 13.3078C16.7503 13.3659 16.7964 13.4348 16.8279 13.5107C16.8593 13.5865 16.8755 13.6679 16.8755 13.75C16.8755 13.8321 16.8593 13.9135 16.8279 13.9893C16.7964 14.0652 16.7503 14.1342 16.6922 14.1922ZM5.80782 9.1922C5.92509 9.30947 6.08415 9.37536 6.25 9.37536C6.41586 9.37536 6.57492 9.30947 6.69219 9.1922C6.80947 9.07492 6.87535 8.91586 6.87535 8.75001C6.87535 8.58416 6.80947 8.4251 6.69219 8.30782L5.2586 6.87501H16.25C16.4158 6.87501 16.5747 6.80916 16.6919 6.69195C16.8092 6.57474 16.875 6.41577 16.875 6.25001C16.875 6.08425 16.8092 5.92528 16.6919 5.80807C16.5747 5.69086 16.4158 5.62501 16.25 5.62501H5.2586L6.69219 4.1922C6.80947 4.07492 6.87535 3.91586 6.87535 3.75001C6.87535 3.58416 6.80947 3.4251 6.69219 3.30782C6.57492 3.19055 6.41586 3.12466 6.25 3.12466C6.08415 3.12466 5.92509 3.19055 5.80782 3.30782L3.30782 5.80782C3.24971 5.86587 3.20361 5.9348 3.17215 6.01067C3.1407 6.08655 3.12451 6.16788 3.12451 6.25001C3.12451 6.33215 3.1407 6.41348 3.17215 6.48935C3.20361 6.56522 3.24971 6.63415 3.30782 6.6922L5.80782 9.1922Z"
-                                                                                fill="#5C5E61" />
-                                                                        </svg>
-                                                                        Compare
-                                                                    </a>
-                                                                    <a href="property-detail-v1.html"
+                                                                     
+                                                                    <a href="/avarra"
                                                                         class="tf-btn style-border pd-4">Details</a>
                                                                 </div>
                                                             </div>
@@ -1924,16 +1911,15 @@
                                                 <div class="swiper-slide">
                                                     <div class="box-house hover-img ">
                                                         <div class="image-wrap">
-                                                            <a href="property-detail-v1.html">
+                                                            <a href="/eywa">
                                                                 <img class="lazyload"
-                                                                    data-src="{{ asset('assets/images/section/box-house-13.jpg') }}  "
-                                                                    src="{{ asset('assets/images/section/box-house-13.jpg') }}  " alt="">
+                                                                    data-src="{{ asset('assets/images/newimages/property/Eywa/Gallery-2-9.jpg') }}  "
+                                                                    src="{{ asset('assets/images/newimages/property/Eywa/Gallery-2-9.jpg') }}  " alt="">
                                                             </a>
                                                             <ul class="box-tag flex gap-8 ">
                                                                 <li class="flat-tag text-4 bg-main fw-6 text_white">
-                                                                    Featured</li>
-                                                                <li class="flat-tag text-4 bg-3 fw-6 text_white">For
-                                                                    Sale</li>
+                                                                Off-plan</li>
+                                                                <li class="flat-tag text-4 bg-3 fw-6 text_white">Apartments, Duplex</li>
                                                             </ul>
                                                             <div class="list-btn flex gap-8 ">
                                                                 <a href="#" class="btn-icon save hover-tooltip"><i
@@ -1948,36 +1934,24 @@
                                                         </div>
                                                         <div class="content">
                                                             <h5 class="title">
-                                                                <a href="property-detail-v1.html">Elegant studio
-                                                                    flat</a>
+                                                                <a href="/eywa">Eywa 2</a>
 
                                                             </h5>
                                                             <p class="location text-1 flex items-center gap-8">
-                                                                <i class="icon-location"></i> Ingraham St, Brooklyn, NY
-                                                                11237
+                                                                <i class="icon-location"></i> Business Bay
                                                             </p>
                                                             <ul class="meta-list flex">
-                                                                <li class="text-1 flex"><span>3</span>Beds</li>
+                                                                <li class="text-1 flex"><span>2, 3, 4, 5</span>Beds</li>
                                                                 <li class="text-1 flex"><span>3</span>Baths</li>
-                                                                <li class="text-1 flex"><span>4,043</span>Sqft</li>
+                                                                <li class="text-1 flex"><span>850 – 3,200</span>Sqft</li>
                                                             </ul>
                                                             <div class="bot flex justify-between items-center">
                                                                 <h5 class="price">
-                                                                    $8.600
+                                                                AED 8.3M
                                                                 </h5>
                                                                 <div class="wrap-btn flex">
-                                                                    <a href="#"
-                                                                        class="compare flex gap-8 items-center text-1"><svg
-                                                                            width="20" height="20" viewBox="0 0 20 20"
-                                                                            fill="none"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M16.6922 14.1922L14.1922 16.6922C14.0749 16.8095 13.9159 16.8754 13.75 16.8754C13.5842 16.8754 13.4251 16.8095 13.3078 16.6922C13.1905 16.5749 13.1247 16.4159 13.1247 16.25C13.1247 16.0842 13.1905 15.9251 13.3078 15.8078L14.7414 14.375H3.75C3.58424 14.375 3.42527 14.3092 3.30806 14.192C3.19085 14.0747 3.125 13.9158 3.125 13.75C3.125 13.5843 3.19085 13.4253 3.30806 13.3081C3.42527 13.1909 3.58424 13.125 3.75 13.125H14.7414L13.3078 11.6922C13.1905 11.5749 13.1247 11.4159 13.1247 11.25C13.1247 11.0842 13.1905 10.9251 13.3078 10.8078C13.4251 10.6905 13.5842 10.6247 13.75 10.6247C13.9159 10.6247 14.0749 10.6905 14.1922 10.8078L16.6922 13.3078C16.7503 13.3659 16.7964 13.4348 16.8279 13.5107C16.8593 13.5865 16.8755 13.6679 16.8755 13.75C16.8755 13.8321 16.8593 13.9135 16.8279 13.9893C16.7964 14.0652 16.7503 14.1342 16.6922 14.1922ZM5.80782 9.1922C5.92509 9.30947 6.08415 9.37536 6.25 9.37536C6.41586 9.37536 6.57492 9.30947 6.69219 9.1922C6.80947 9.07492 6.87535 8.91586 6.87535 8.75001C6.87535 8.58416 6.80947 8.4251 6.69219 8.30782L5.2586 6.87501H16.25C16.4158 6.87501 16.5747 6.80916 16.6919 6.69195C16.8092 6.57474 16.875 6.41577 16.875 6.25001C16.875 6.08425 16.8092 5.92528 16.6919 5.80807C16.5747 5.69086 16.4158 5.62501 16.25 5.62501H5.2586L6.69219 4.1922C6.80947 4.07492 6.87535 3.91586 6.87535 3.75001C6.87535 3.58416 6.80947 3.4251 6.69219 3.30782C6.57492 3.19055 6.41586 3.12466 6.25 3.12466C6.08415 3.12466 5.92509 3.19055 5.80782 3.30782L3.30782 5.80782C3.24971 5.86587 3.20361 5.9348 3.17215 6.01067C3.1407 6.08655 3.12451 6.16788 3.12451 6.25001C3.12451 6.33215 3.1407 6.41348 3.17215 6.48935C3.20361 6.56522 3.24971 6.63415 3.30782 6.6922L5.80782 9.1922Z"
-                                                                                fill="#5C5E61" />
-                                                                        </svg>
-                                                                        Compare
-                                                                    </a>
-                                                                    <a href="property-detail-v1.html"
+                                                                    
+                                                                    <a href="/eywa"
                                                                         class="tf-btn style-border pd-4">Details</a>
                                                                 </div>
                                                             </div>
@@ -1987,16 +1961,15 @@
                                                 <div class="swiper-slide">
                                                     <div class="box-house hover-img">
                                                         <div class="image-wrap">
-                                                            <a href="property-detail-v1.html">
+                                                            <a href="/lumena-alta">
                                                                 <img class="lazyload"
-                                                                    data-src="{{ asset('assets/images/section/box-house.jpg') }}  "
-                                                                    src="{{ asset('assets/images/section/box-house.jpg') }}  " alt="">
+                                                                    data-src="{{ asset('assets/images/newimages/property/Lumena/alta-g-3.jpg') }}  "
+                                                                    src="{{ asset('assets/images/newimages/property/Lumena/alta-g-3.jpg') }}  " alt="">
                                                             </a>
                                                             <ul class="box-tag flex gap-8 ">
                                                                 <li class="flat-tag text-4 bg-main fw-6 text_white">
-                                                                    Featured</li>
-                                                                <li class="flat-tag text-4 bg-3 fw-6 text_white">For
-                                                                    Sale</li>
+                                                                Off-plan</li>
+                                                                <li class="flat-tag text-4 bg-3 fw-6 text_white">Office, Retail Units</li>
                                                             </ul>
                                                             <div class="list-btn flex gap-8 ">
                                                                 <a href="#" class="btn-icon save hover-tooltip"><i
@@ -2011,36 +1984,24 @@
                                                         </div>
                                                         <div class="content">
                                                             <h5 class="title">
-                                                                <a href="property-detail-v1.html">Elegant studio
-                                                                    flat</a>
+                                                                <a href="/lumena-alta">Lumena Alta</a>
 
                                                             </h5>
                                                             <p class="location text-1 flex items-center gap-8">
-                                                                <i class="icon-location"></i> Ingraham St, Brooklyn, NY
-                                                                11237
+                                                                <i class="icon-location"></i> Business Bay
                                                             </p>
                                                             <ul class="meta-list flex">
-                                                                <li class="text-1 flex"><span>3</span>Beds</li>
-                                                                <li class="text-1 flex"><span>3</span>Baths</li>
-                                                                <li class="text-1 flex"><span>4,043</span>Sqft</li>
+                                                                <li class="text-1 flex"><span>Office</span>Beds</li>
+                                                                <li class="text-1 flex"><span>1</span>Baths</li>
+                                                                <li class="text-1 flex"><span>850 – 3,200</span>Sqft</li>
                                                             </ul>
                                                             <div class="bot flex justify-between items-center">
                                                                 <h5 class="price">
-                                                                    $8.600
+                                                                AED 19M
                                                                 </h5>
                                                                 <div class="wrap-btn flex">
-                                                                    <a href="#"
-                                                                        class="compare flex gap-8 items-center text-1"><svg
-                                                                            width="20" height="20" viewBox="0 0 20 20"
-                                                                            fill="none"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M16.6922 14.1922L14.1922 16.6922C14.0749 16.8095 13.9159 16.8754 13.75 16.8754C13.5842 16.8754 13.4251 16.8095 13.3078 16.6922C13.1905 16.5749 13.1247 16.4159 13.1247 16.25C13.1247 16.0842 13.1905 15.9251 13.3078 15.8078L14.7414 14.375H3.75C3.58424 14.375 3.42527 14.3092 3.30806 14.192C3.19085 14.0747 3.125 13.9158 3.125 13.75C3.125 13.5843 3.19085 13.4253 3.30806 13.3081C3.42527 13.1909 3.58424 13.125 3.75 13.125H14.7414L13.3078 11.6922C13.1905 11.5749 13.1247 11.4159 13.1247 11.25C13.1247 11.0842 13.1905 10.9251 13.3078 10.8078C13.4251 10.6905 13.5842 10.6247 13.75 10.6247C13.9159 10.6247 14.0749 10.6905 14.1922 10.8078L16.6922 13.3078C16.7503 13.3659 16.7964 13.4348 16.8279 13.5107C16.8593 13.5865 16.8755 13.6679 16.8755 13.75C16.8755 13.8321 16.8593 13.9135 16.8279 13.9893C16.7964 14.0652 16.7503 14.1342 16.6922 14.1922ZM5.80782 9.1922C5.92509 9.30947 6.08415 9.37536 6.25 9.37536C6.41586 9.37536 6.57492 9.30947 6.69219 9.1922C6.80947 9.07492 6.87535 8.91586 6.87535 8.75001C6.87535 8.58416 6.80947 8.4251 6.69219 8.30782L5.2586 6.87501H16.25C16.4158 6.87501 16.5747 6.80916 16.6919 6.69195C16.8092 6.57474 16.875 6.41577 16.875 6.25001C16.875 6.08425 16.8092 5.92528 16.6919 5.80807C16.5747 5.69086 16.4158 5.62501 16.25 5.62501H5.2586L6.69219 4.1922C6.80947 4.07492 6.87535 3.91586 6.87535 3.75001C6.87535 3.58416 6.80947 3.4251 6.69219 3.30782C6.57492 3.19055 6.41586 3.12466 6.25 3.12466C6.08415 3.12466 5.92509 3.19055 5.80782 3.30782L3.30782 5.80782C3.24971 5.86587 3.20361 5.9348 3.17215 6.01067C3.1407 6.08655 3.12451 6.16788 3.12451 6.25001C3.12451 6.33215 3.1407 6.41348 3.17215 6.48935C3.20361 6.56522 3.24971 6.63415 3.30782 6.6922L5.80782 9.1922Z"
-                                                                                fill="#5C5E61" />
-                                                                        </svg>
-                                                                        Compare
-                                                                    </a>
-                                                                    <a href="property-detail-v1.html"
+                                                                     
+                                                                    <a href="/lumena-alta"
                                                                         class="tf-btn style-border pd-4">Details</a>
                                                                 </div>
                                                             </div>
@@ -2050,16 +2011,15 @@
                                                 <div class="swiper-slide">
                                                     <div class="box-house hover-img">
                                                         <div class="image-wrap">
-                                                            <a href="property-detail-v1.html">
+                                                            <a href="/eden-house-marasi">
                                                                 <img class="lazyload"
-                                                                    data-src="{{ asset('assets/images/section/box-house-2.jpg') }}  "
-                                                                    src="{{ asset('assets/images/section/box-house-2.jpg') }}  " alt="">
+                                                                    data-src="{{ asset('assets/images/newimages/property/Eden/Gallery-1-2.jpg') }}  "
+                                                                    src="{{ asset('assets/images/newimages/property/Eden/Gallery-1-2.jpg') }}  " alt="">
                                                             </a>
                                                             <ul class="box-tag flex gap-8 ">
                                                                 <li class="flat-tag text-4 bg-main fw-6 text_white">
-                                                                    Featured</li>
-                                                                <li class="flat-tag text-4 bg-3 fw-6 text_white">For
-                                                                    Sale</li>
+                                                                Off-plan</li>
+                                                                <li class="flat-tag text-4 bg-3 fw-6 text_white">Penthouses</li>
                                                             </ul>
                                                             <div class="list-btn flex gap-8 ">
                                                                 <a href="#" class="btn-icon save hover-tooltip"><i
@@ -2074,36 +2034,24 @@
                                                         </div>
                                                         <div class="content">
                                                             <h5 class="title">
-                                                                <a href="property-detail-v1.html">Elegant studio
-                                                                    flat</a>
+                                                                <a href="/eden-house-marasi">Eden House Marasi</a>
 
                                                             </h5>
                                                             <p class="location text-1 flex items-center gap-8">
-                                                                <i class="icon-location"></i> Ingraham St, Brooklyn, NY
-                                                                11237
+                                                                <i class="icon-location"></i> Business Bay
                                                             </p>
                                                             <ul class="meta-list flex">
-                                                                <li class="text-1 flex"><span>3</span>Beds</li>
-                                                                <li class="text-1 flex"><span>3</span>Baths</li>
-                                                                <li class="text-1 flex"><span>4,043</span>Sqft</li>
+                                                                <li class="text-1 flex"><span>4</span>Beds</li>
+                                                                <li class="text-1 flex"><span>4</span>Baths</li>
+                                                                <li class="text-1 flex"><span>850 – 3,200</span>Sqft</li>
                                                             </ul>
                                                             <div class="bot flex justify-between items-center">
                                                                 <h5 class="price">
-                                                                    $8.600
+                                                                TBA
                                                                 </h5>
                                                                 <div class="wrap-btn flex">
-                                                                    <a href="#"
-                                                                        class="compare flex gap-8 items-center text-1"><svg
-                                                                            width="20" height="20" viewBox="0 0 20 20"
-                                                                            fill="none"
-                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                            <path
-                                                                                d="M16.6922 14.1922L14.1922 16.6922C14.0749 16.8095 13.9159 16.8754 13.75 16.8754C13.5842 16.8754 13.4251 16.8095 13.3078 16.6922C13.1905 16.5749 13.1247 16.4159 13.1247 16.25C13.1247 16.0842 13.1905 15.9251 13.3078 15.8078L14.7414 14.375H3.75C3.58424 14.375 3.42527 14.3092 3.30806 14.192C3.19085 14.0747 3.125 13.9158 3.125 13.75C3.125 13.5843 3.19085 13.4253 3.30806 13.3081C3.42527 13.1909 3.58424 13.125 3.75 13.125H14.7414L13.3078 11.6922C13.1905 11.5749 13.1247 11.4159 13.1247 11.25C13.1247 11.0842 13.1905 10.9251 13.3078 10.8078C13.4251 10.6905 13.5842 10.6247 13.75 10.6247C13.9159 10.6247 14.0749 10.6905 14.1922 10.8078L16.6922 13.3078C16.7503 13.3659 16.7964 13.4348 16.8279 13.5107C16.8593 13.5865 16.8755 13.6679 16.8755 13.75C16.8755 13.8321 16.8593 13.9135 16.8279 13.9893C16.7964 14.0652 16.7503 14.1342 16.6922 14.1922ZM5.80782 9.1922C5.92509 9.30947 6.08415 9.37536 6.25 9.37536C6.41586 9.37536 6.57492 9.30947 6.69219 9.1922C6.80947 9.07492 6.87535 8.91586 6.87535 8.75001C6.87535 8.58416 6.80947 8.4251 6.69219 8.30782L5.2586 6.87501H16.25C16.4158 6.87501 16.5747 6.80916 16.6919 6.69195C16.8092 6.57474 16.875 6.41577 16.875 6.25001C16.875 6.08425 16.8092 5.92528 16.6919 5.80807C16.5747 5.69086 16.4158 5.62501 16.25 5.62501H5.2586L6.69219 4.1922C6.80947 4.07492 6.87535 3.91586 6.87535 3.75001C6.87535 3.58416 6.80947 3.4251 6.69219 3.30782C6.57492 3.19055 6.41586 3.12466 6.25 3.12466C6.08415 3.12466 5.92509 3.19055 5.80782 3.30782L3.30782 5.80782C3.24971 5.86587 3.20361 5.9348 3.17215 6.01067C3.1407 6.08655 3.12451 6.16788 3.12451 6.25001C3.12451 6.33215 3.1407 6.41348 3.17215 6.48935C3.20361 6.56522 3.24971 6.63415 3.30782 6.6922L5.80782 9.1922Z"
-                                                                                fill="#5C5E61" />
-                                                                        </svg>
-                                                                        Compare
-                                                                    </a>
-                                                                    <a href="property-detail-v1.html"
+                                                                     
+                                                                    <a href="/eden-house-marasi"
                                                                         class="tf-btn style-border pd-4">Details</a>
                                                                 </div>
                                                             </div>
@@ -2603,32 +2551,32 @@
                                 listing
                             </p>
                         </div>
+                        
                         <div class="wrap-neighborhoods">
                             <div class="box-location hover-img item-1">
                                 <div class="image-wrap">
                                     <a href="#">
-                                        <img class="lazyload" data-src="{{ asset('assets/images/section/location-9.jpg') }}"
-                                            src="{{ asset('assets/images/section/location-9.jpg') }}" alt="">
+                                        <img class="lazyload" data-src="{{ asset('assets/images/newimages/property/Vanguard/g-1-1-1.jpg') }}"
+                                            src="{{ asset('assets/images/newimages/property/Vanguard/g-1-1-1.jpg') }}" alt="">
                                     </a>
 
                                 </div>
                                 <div class="content">
-                                    <h6 class="text_white">New York</h6>
-                                    <a href="#"
-                                        class="text-1 tf-btn style-border pd-23 text_white  tf-btn style-border pd-23">2.491
-                                        Properties <i class="icon-arrow-right"></i></a>
+                                    <h6 class="text_white">Dubai Marina</h6>
+                                    <a href="/franck-muller-vanguard"
+                                        class="text-1 tf-btn style-border pd-23 text_white  tf-btn style-border pd-23">View Detailed <i class="icon-arrow-right"></i></a>
                                 </div>
                             </div>
                             <div class="box-location hover-img item-2">
-                                <div class="image-wrap">
-                                    <a href="#">
-                                        <img class="lazyload" data-src="{{ asset('assets/images/section/location-10.jpg') }} "
-                                            src="{{ asset('assets/images/section/location-10.jpg') }}" alt="">
+                                <div class="image-wrap" style="height:100% !important;">
+                                    <a href="/kempinski-marina-residences" >
+                                        <img class="lazyload" data-src="{{ asset('assets/images/newimages/property/Kempinski/kempinski-9.jpg') }} "
+                                            src="{{ asset('assets/images/newimages/property/Kempinski/kempinski-9.jpg') }}" alt="" >
                                     </a>
                                 </div>
                                 <div class="content">
-                                    <h6 class="text_white">New York</h6>
-                                    <a href="#" class="text-1 tf-btn style-border pd-23 text_white">2.491 Properties <i
+                                    <h6 class="text_white">Dubai Marina</h6>
+                                    <a href="/kempinski-marina-residences" class="text-1 tf-btn style-border pd-23 text_white">View Detailed <i
                                             class="icon-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -2703,7 +2651,7 @@
             </section><!-- /.section-neighborhoods -->
 
             <!-- .section-listing -->
-            <section class="section-listing tf-spacing-1">
+            <section class="section-listing tf-spacing-1" style="display:none !important;">
                 <div class="tf-container">
                     <div class="row">
                         <div class="col-12">
@@ -2965,7 +2913,7 @@
 
 
              <!-- .section-listing  -->
-             <div class=" ">
+             <div class=" " style="margin-top:50px !important;">
                 <div class="tf-container">
                     <div class="row">
                         <div class="col-12">

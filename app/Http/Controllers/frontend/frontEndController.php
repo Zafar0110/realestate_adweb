@@ -328,11 +328,45 @@ class frontEndController extends Controller
         return view('property.tenet', compact('seo'));
     }
     
+    public function avarra()
+    {
+        $seo = [
+            'title' => 'avarra',
+            'description' => 'avarra',
+            'keywords' => 'avarra'
+        ];
+        return view('property.avarra', compact('seo'));
+    } 
+    public function eywa()
+    {
+        $seo = [
+            'title' => 'Eywa 2',
+            'description' => 'Eywa 2',
+            'keywords' => 'Eywa 2'
+        ];
+        return view('property.eywa', compact('seo'));
+    }
+    public function lumena()
+    {
+        $seo = [
+            'title' => 'Eywa 2',
+            'description' => 'Eywa 2',
+            'keywords' => 'Eywa 2'
+        ];
+        return view('property.lumena', compact('seo'));
+    }
+    public function eden()
+    {
+        $seo = [
+            'title' => 'Eden House Marasi',
+            'description' => 'Eden House Marasi',
+            'keywords' => 'Eden House Marasi'
+        ];
+        return view('property.eden', compact('seo'));
+    }
     
-    
-    
-    
-      
+     
+     
     
     
 }

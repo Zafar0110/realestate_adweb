@@ -48,6 +48,10 @@ Route::get('/kempinski-marina-residences', [frontEndController::class, 'kempinsk
 Route::get('/habtoor-grand-residences', [frontEndController::class, 'habtoor'])->name('habtoor');
 Route::get('/the-canal', [frontEndController::class, 'canal'])->name('canal');
 Route::get('/haus-Of-tenet', [frontEndController::class, 'tenet'])->name('tenet');
+Route::get('/avarra', [frontEndController::class, 'avarra'])->name('avarra');
+Route::get('/eywa', [frontEndController::class, 'eywa'])->name('eywa');
+Route::get('/lumena-alta', [frontEndController::class, 'lumena'])->name('lumena');
+Route::get('/eden-house-marasi', [frontEndController::class, 'eden'])->name('eden');
 
 
 
