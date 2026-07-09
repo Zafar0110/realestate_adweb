@@ -13,7 +13,7 @@
                         <div class="title-inner ">
                             <ul class="breadcrumb">
                                 <li><a class="home fw-6 text-color-3" href="index.html">Home</a></li>
-                                <li>Property Listing</li>
+                                <li>Property Como Residences by Nakheel</li>
                             </ul>
                         </div>
                     </div>
@@ -36,51 +36,51 @@
                                     <div class="swiper sw-single">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
-                                                <a href="{{ asset('assets/images/newimages/property/Raw District/Gallery-4-10.jpg') }}"
+                                                <a href="{{ asset('assets/images/newimages/property/Nakheel/como-img-1.jpg') }}"
                                                     data-fancybox="gallery" class="image-wrap d-block">
                                                     <img class="lazyload"
-                                                        data-src="{{ asset('assets/images/newimages/property/Raw District/Gallery-4-10.jpg') }}"
-                                                        src="{{ asset('assets/images/newimages/property/Raw District/Gallery-4-10.jpg') }}" alt="">
+                                                        data-src="{{ asset('assets/images/newimages/property/Nakheel/como-img-1.jpg') }}"
+                                                        src="{{ asset('assets/images/newimages/property/Nakheel/como-img-1.jpg') }}" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="{{ asset('assets/images/newimages/property/Raw District/Gallery-5-9.jpg') }}"
+                                                <a href="{{ asset('assets/images/newimages/property/Nakheel/como-img-2.jpg') }}"
                                                     data-fancybox="gallery" class="image-wrap d-block">
                                                     <img class="lazyload"
-                                                        data-src="{{ asset('assets/images/newimages/property/Raw District/Gallery-5-9.jpg') }}"
-                                                        src="{{ asset('assets/images/newimages/property/Raw District/Gallery-5-9.jpg') }}" alt="">
+                                                        data-src="{{ asset('assets/images/newimages/property/Nakheel/como-img-2.jpg') }}"
+                                                        src="{{ asset('assets/images/newimages/property/Nakheel/como-img-2.jpg') }}" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="{{ asset('assets/images/newimages/property/Raw District/Gallery-6-9.jpg') }}"
+                                                <a href="{{ asset('assets/images/newimages/property/Nakheel/como-img-3.jpg') }}"
                                                     data-fancybox="gallery" class="image-wrap d-block">
                                                     <img class="lazyload"
-                                                        data-src="{{ asset('assets/images/newimages/property/Raw District/Gallery-6-9.jpg') }}"
-                                                        src="{{ asset('assets/images/newimages/property/Raw District/Gallery-6-9.jpg') }}" alt="">
+                                                        data-src="{{ asset('assets/images/newimages/property/Nakheel/como-img-3.jpg') }}"
+                                                        src="{{ asset('assets/images/newimages/property/Nakheel/como-img-3.jpg') }}" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="{{ asset('assets/images/newimages/property/Raw District/Gallery-3-10.jpg') }}"
+                                                <a href="{{ asset('assets/images/newimages/property/Nakheel/como-img-4.jpg') }}"
                                                     data-fancybox="gallery" class="image-wrap d-block">
                                                     <img class="lazyload"
-                                                        data-src="{{ asset('assets/images/newimages/property/Raw District/Gallery-3-10.jpg') }}"
-                                                        src="{{ asset('assets/images/newimages/property/Raw District/Gallery-3-10.jpg') }}" alt="">
+                                                        data-src="{{ asset('assets/images/newimages/property/Nakheel/como-img-4.jpg') }}"
+                                                        src="{{ asset('assets/images/newimages/property/Nakheel/como-img-4.jpg') }}" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="{{ asset('assets/images/newimages/property/Raw District/Gallery-2-11.jpg') }}"
+                                                <a href="{{ asset('assets/images/newimages/property/Nakheel/como-img-5.jpg') }}"
                                                     data-fancybox="gallery" class="image-wrap d-block">
                                                     <img class="lazyload"
-                                                        data-src="{{ asset('assets/images/newimages/property/Raw District/Gallery-2-11.jpg') }}"
-                                                        src="{{ asset('assets/images/newimages/property/Raw District/Gallery-2-11.jpg') }}" alt="">
+                                                        data-src="{{ asset('assets/images/newimages/property/Nakheel/como-img-5.jpg') }}"
+                                                        src="{{ asset('assets/images/newimages/property/Nakheel/como-img-5.jpg') }}" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="{{ asset('assets/images/newimages/property/Raw District/Gallery-7-5.jpg') }}"
+                                                <a href="{{ asset('assets/images/newimages/property/Nakheel/como-img-6.jpg') }}"
                                                     data-fancybox="gallery" class="image-wrap d-block">
                                                     <img class="lazyload"
-                                                        data-src="{{ asset('assets/images/newimages/property/Raw District/Gallery-7-5.jpg') }}"
-                                                        src="{{ asset('assets/images/newimages/property/Raw District/Gallery-7-5.jpg') }}" alt="">
+                                                        data-src="{{ asset('assets/images/newimages/property/Nakheel/como-img-6.jpg') }}"
+                                                        src="{{ asset('assets/images/newimages/property/Nakheel/como-img-6.jpg') }}" alt="">
                                                 </a>
                                             </div>
                                              
@@ -99,32 +99,32 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="img-thumb-pagi">
-                                                    <img src="{{ asset('assets/images/newimages/property/Raw District/Gallery-4-10.jpg') }}" alt="images">
+                                                    <img src="{{ asset('assets/images/newimages/property/Nakheel/como-img-1.jpg') }}" alt="images">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="img-thumb-pagi">
-                                                    <img src="{{ asset('assets/images/newimages/property/Raw District/Gallery-5-9.jpg') }}" alt="images">
+                                                    <img src="{{ asset('assets/images/newimages/property/Nakheel/como-img-2.jpg') }}" alt="images">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="img-thumb-pagi">
-                                                    <img src="{{ asset('assets/images/newimages/property/Raw District/Gallery-6-9.jpg') }}" alt="images">
+                                                    <img src="{{ asset('assets/images/newimages/property/Nakheel/como-img-3.jpg') }}" alt="images">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="img-thumb-pagi">
-                                                    <img src="{{ asset('assets/images/newimages/property/Raw District/Gallery-3-10.jpg') }}" alt="images">
+                                                    <img src="{{ asset('assets/images/newimages/property/Nakheel/como-img-4.jpg') }}" alt="images">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="img-thumb-pagi">
-                                                    <img src="{{ asset('assets/images/newimages/property/Raw District/Gallery-2-11.jpg') }}" alt="images">
+                                                    <img src="{{ asset('assets/images/newimages/property/Nakheel/como-img-5.jpg') }}" alt="images">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="img-thumb-pagi">
-                                                    <img src="{{ asset('assets/images/newimages/property/Raw District/Gallery-7-5.jpg') }}" alt="images">
+                                                    <img src="{{ asset('assets/images/newimages/property/Nakheel/como-img-6.jpg') }}" alt="images">
                                                 </div>
                                             </div>
                                         </div>
@@ -134,22 +134,22 @@
                             <div class="wg-property box-overview ">
                                 <div class="heading flex justify-between">
                                     <div class="title text-5 fw-6 text-color-heading">
-                                    Raw District 2
+                                    Como Residences by Nakheel
 
                                     </div>
                                     <div class="price text-5 fw-6 text-color-heading">
-                                    AED 666K
+                                    AED 21M
                                         
                                     </div>
                                 </div>
                                 <div class="info flex justify-between">
                                     <div class="feature">
                                         <p class="location text-1 flex items-center gap-10">
-                                            <i class="icon-location"></i>Sheikh Zayed Road
+                                            <i class="icon-location"></i>Palm Jumeirah
                                         </p>
                                         <ul class="meta-list flex">
-                                            <li class="text-1 flex"><span>1, 2, 3, Studio</span>Bed</li>
-                                            <li class="text-1 flex"><span>3</span>Bath</li>
+                                            <li class="text-1 flex"><span>2, 3, 4, 5, 6, 7</span>Bed</li>
+                                            <li class="text-1 flex"><span>2, 3, 4, 5</span>Bath</li>
                                             <li class="text-1 flex"><span>850 – 3,200 </span>Sqft</li>
                                         </ul>
                                     </div>
@@ -198,7 +198,7 @@
                                             </div>
                                             <div class="content">
                                                 <div class="text-4 text-color-default">ID:</div>
-                                                <div class="text-1 text-color-heading">2297</div>
+                                                <div class="text-1 text-color-heading">6653</div>
                                             </div>
                                         </div>
                                         <div class="box-icon">
@@ -207,7 +207,7 @@
                                             </div>
                                             <div class="content">
                                                 <div class="text-4 text-color-default">Bathrooms:</div>
-                                                <div class="text-1 text-color-heading"> 3 </div>
+                                                <div class="text-1 text-color-heading">2, 3, 4, 5 </div>
                                             </div>
                                         </div>
                                     </div>
@@ -218,7 +218,7 @@
                                             </div>
                                             <div class="content">
                                                 <div class="text-4 text-color-default">Type:</div>
-                                                <div class="text-1 text-color-heading">Apartments,<br> Office, Retail Units</div>
+                                                <div class="text-1 text-color-heading">Apartments, <br> Duplex</div>
                                             </div>
                                         </div>
                                         <div class="box-icon">
@@ -231,26 +231,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="wrap-box">
-                                        <div class="box-icon">
-                                            <div class="icons">
-                                                <i class="icon-Garage-1"></i>
-                                            </div>
-                                            <div class="content">
-                                                <div class="text-4 text-color-default">Garages</div>
-                                                <div class="text-1 text-color-heading">1</div>
-                                            </div>
-                                        </div>
-                                        <div class="box-icon">
-                                            <div class="icons">
-                                                <i class="icon-Hammer"></i>
-                                            </div>
-                                            <div class="content">
-                                                <div class="text-4 text-color-default">Year Built:</div>
-                                                <div class="text-1 text-color-heading">2023</div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                     <div class="wrap-box">
                                         <div class="box-icon">
                                             <div class="icons">
@@ -258,30 +239,20 @@
                                             </div>
                                             <div class="content">
                                                 <div class="text-4 text-color-default">Bedrooms:</div>
-                                                <div class="text-1 text-color-heading">1, 2, 3, Studio</div>
+                                                <div class="text-1 text-color-heading">2, 3, 4, 5, 6, 7</div>
                                             </div>
                                         </div>
-                                        <div class="box-icon">
-                                            <div class="icons">
-                                                <i class="icon-Ruler"></i>
-                                            </div>
-                                            <div class="content">
-                                                <div class="text-4 text-color-default">Size:</div>
-                                                <div class="text-1 text-color-heading">900 SqFt</div>
-                                            </div>
-                                        </div>
+                                         
                                     </div>
                                 </div>
                              </div>
                              
                             <div class="wg-property box-property-detail  spacing-1">
                                 <div class="wg-title text-11 fw-6 text-color-heading">
-                                    Property Details
+                                Project Overview
                                 </div>
                                 <div class="content">
-                                    <p class="description text-1 mb-10">3
-                                    RAW District 2 on Sheikh Zayed Road is a dynamic mixed-use development within Downtown Jebel Ali, designed for modern urban living and business. The project features fully furnished studio, 1, 2 and 3-bedroom apartments alongside premium office spaces and retail outlets, offering strong long-term value in one of Dubai’s emerging growth corridors.
-                                    <br>RAW District 2 by Imtiaz Developments combines lifestyle, convenience, and investment potential within a thoughtfully planned community. Residents and businesses can enjoy a curated selection of amenities including a gym, family pool, floating pavilion, and outdoor cinema lawn, alongside wellness, recreation, and social spaces.
+                                    <p class="description text-1 mb-10">Introducing Como Residences by Nakheel, where world-class amenities and a designer vacation community converge to create a unique way of living. Elevate your standard of living with unparalleled features and conveniences that transform your lifestyle. Immerse yourself in the pinnacle of luxury living, where an array of luxurious apartments await you atop a 75-storey tower. Indulge in the utmost care and comfort with an impressive selection of 2- to 6 -bedroom apartments and 7-bedroom duplexes that offer unmatched opulence and grandeur. Each showstopping residence exudes refined elegance and sophistication while embracing the coastal lifestyle. Experience a never-ending holiday from the comfort of your own private home and create cherished moments with your dear ones amidst beautiful surrounding with attractive and luxurious amenities.
 
 
                                     </p>
@@ -291,11 +262,11 @@
                                     <ul>
                                         <li class="flex">
                                             <p class="fw-6">ID</p>
-                                            <p>#1234</p>
+                                            <p>6653</p>
                                         </li>
                                         <li class="flex">
                                             <p class="fw-6">Starting Price</p>
-                                            <p>AED 666,000</p>
+                                            <p>AED 21,000,000</p>
                                         </li>
                                         <li class="flex">
                                             <p class="fw-6">Size Range</p>
@@ -304,29 +275,29 @@
                                        
                                         <li class="flex">
                                             <p class="fw-6">Property Types</p>
-                                            <p>Apartments, Office, Retail Units</p>
+                                            <p>Apartments, Duplex</p>
                                         </li>
                                     </ul>
                                     <ul>
                                         <li class="flex">
                                             <p class="fw-6">Developer</p>
-                                            <p>Imtiaz Developments</p>
+                                            <p>Nakheel Properties</p>
                                         </li>
                                         <li class="flex">
                                             <p class="fw-6">Handover</p>
-                                            <p>TBA</p>
+                                            <p>2027</p>
                                         </li>
                                         <li class="flex">
                                             <p class="fw-6">Bedrooms</p>
-                                            <p>1, 2, 3, Studio</p>
+                                            <p>2, 3, 4, 5, 6, 7</p>
                                         </li>
                                         <li class="flex">
                                             <p class="fw-6">Location</p>
-                                            <p>Sheikh Zayed Road</p>
+                                            <p>Palm Jumeirah</p>
                                         </li>
                                         <li class="flex">
                                             <p class="fw-6">Payment Plan</p>
-                                            <p>50/50</p>
+                                            <p>80/20</p>
                                         </li>
                                         
                                     </ul>
@@ -336,34 +307,25 @@
                                 <div class="wg-title text-11 fw-6 text-color-heading">
                                     Amenities And Features
                                 </div>
-                                <p>Linar offers an exceptional array of world-class amenities designed to enhance every aspect of modern living.
+                                <p>Como Residences by Nakheel offers an exceptional array of world-class amenities designed to enhance every aspect of modern living.
+
+
                                 </p>
                                 <br>
                                 <div class="wrap-feature">
                                     <div class="box-feature">
                                         <ul>
                                             <li class="feature-item">
-                                            Amphitheater
+                                            Indulge in a leisure journey and exclusive top-class amenities at Como Residences by Nakheel
 
                                             </li>
                                             <li class="feature-item">
-                                            Co-Working Spaces
-                                            </li>
-                                            <li class="feature-item">
-                                            Sports Courts
+                                            where beachfront promenades are adorned with artful culinary elegance. Enjoy signature services and refined dining experiences catered exclusively to you
 
                                             </li>
                                             <li class="feature-item">
-                                            Yoga & Fitness Zones
-                                            </li>
-                                            <li class="feature-item">
-                                            Kids' Playground
-                                            </li>
-                                            <li class="feature-item">
-                                            Swimming Pools
-                                            </li>
-                                            <li class="feature-item">
-                                            Pocket Gardens
+                                            creating cherished moments with loved ones.
+
                                             </li>
                                             
                                         </ul>
@@ -372,13 +334,14 @@
                                    
                                 </div>
                             </div>
+                            
                             <div class="wg-property single-property-map spacing-9">
                                 <div class="wg-title text-11 fw-6 text-color-heading">Get Direction</div>
                                 <iframe class="map"
                                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d135905.11693909427!2d-73.95165795400088!3d41.17584829642291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1727094281524!5m2!1sen!2s"
                                     style="border:0;" allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                    <p>The RAW District 2 by Imtiaz location places residents and businesses in Downtown Jebel Ali directly on Sheikh Zayed Road (E11), offering seamless connectivity to major commercial hubs, lifestyle destinations, and key infrastructure across Dubai. This strategic setting enhances both convenience and long-term investment appeal.
+                                    <p>Indulge in the lap of luxury at Como Residences by Nakheel, located in the iconic Palm Jumeirah of Dubai, offering breathtaking views and contemporary architecture. Enjoy an array of world-class amenities and facilities that cater to your every need, from exquisite dining options to unrivalled entertainment experiences. With a prime location near major business hubs and entertainment centres, it’s the ultimate fusion of comfort, convenience, and luxury.
 
                                     </p>    
                             </div>

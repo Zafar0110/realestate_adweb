@@ -13,7 +13,7 @@
                         <div class="title-inner ">
                             <ul class="breadcrumb">
                                 <li><a class="home fw-6 text-color-3" href="index.html">Home</a></li>
-                                <li>Property Listing</li>
+                                <li>Property Address Grand</li>
                             </ul>
                         </div>
                     </div>
@@ -36,51 +36,51 @@
                                     <div class="swiper sw-single">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
-                                                <a href="{{ asset('assets/images/newimages/property/Raw District/Gallery-4-10.jpg') }}"
+                                                <a href="{{ asset('assets/images/newimages/property/Address/3-1-6-1024x585.jpg') }}"
                                                     data-fancybox="gallery" class="image-wrap d-block">
                                                     <img class="lazyload"
-                                                        data-src="{{ asset('assets/images/newimages/property/Raw District/Gallery-4-10.jpg') }}"
-                                                        src="{{ asset('assets/images/newimages/property/Raw District/Gallery-4-10.jpg') }}" alt="">
+                                                        data-src="{{ asset('assets/images/newimages/property/Address/3-1-6-1024x585.jpg') }}"
+                                                        src="{{ asset('assets/images/newimages/property/Address/3-1-6-1024x585.jpg') }}" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="{{ asset('assets/images/newimages/property/Raw District/Gallery-5-9.jpg') }}"
+                                                <a href="{{ asset('assets/images/newimages/property/Address/4-1-5-1024x585.jpg') }}"
                                                     data-fancybox="gallery" class="image-wrap d-block">
                                                     <img class="lazyload"
-                                                        data-src="{{ asset('assets/images/newimages/property/Raw District/Gallery-5-9.jpg') }}"
-                                                        src="{{ asset('assets/images/newimages/property/Raw District/Gallery-5-9.jpg') }}" alt="">
+                                                        data-src="{{ asset('assets/images/newimages/property/Address/4-1-5-1024x585.jpg') }}"
+                                                        src="{{ asset('assets/images/newimages/property/Address/4-1-5-1024x585.jpg') }}" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="{{ asset('assets/images/newimages/property/Raw District/Gallery-6-9.jpg') }}"
+                                                <a href="{{ asset('assets/images/newimages/property/Address/7-1-5-1024x585.jpg') }}"
                                                     data-fancybox="gallery" class="image-wrap d-block">
                                                     <img class="lazyload"
-                                                        data-src="{{ asset('assets/images/newimages/property/Raw District/Gallery-6-9.jpg') }}"
-                                                        src="{{ asset('assets/images/newimages/property/Raw District/Gallery-6-9.jpg') }}" alt="">
+                                                        data-src="{{ asset('assets/images/newimages/property/Address/7-1-5-1024x585.jpg') }}"
+                                                        src="{{ asset('assets/images/newimages/property/Address/7-1-5-1024x585.jpg') }}" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="{{ asset('assets/images/newimages/property/Raw District/Gallery-3-10.jpg') }}"
+                                                <a href="{{ asset('assets/images/newimages/property/Address/8-1-6-1024x585.jpg') }}"
                                                     data-fancybox="gallery" class="image-wrap d-block">
                                                     <img class="lazyload"
-                                                        data-src="{{ asset('assets/images/newimages/property/Raw District/Gallery-3-10.jpg') }}"
-                                                        src="{{ asset('assets/images/newimages/property/Raw District/Gallery-3-10.jpg') }}" alt="">
+                                                        data-src="{{ asset('assets/images/newimages/property/Address/8-1-6-1024x585.jpg') }}"
+                                                        src="{{ asset('assets/images/newimages/property/Address/8-1-6-1024x585.jpg') }}" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="{{ asset('assets/images/newimages/property/Raw District/Gallery-2-11.jpg') }}"
+                                                <a href="{{ asset('assets/images/newimages/property/Address/9-12-1024x585.jpg') }}"
                                                     data-fancybox="gallery" class="image-wrap d-block">
                                                     <img class="lazyload"
-                                                        data-src="{{ asset('assets/images/newimages/property/Raw District/Gallery-2-11.jpg') }}"
-                                                        src="{{ asset('assets/images/newimages/property/Raw District/Gallery-2-11.jpg') }}" alt="">
+                                                        data-src="{{ asset('assets/images/newimages/property/Address/9-12-1024x585.jpg') }}"
+                                                        src="{{ asset('assets/images/newimages/property/Address/9-12-1024x585.jpg') }}" alt="">
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="{{ asset('assets/images/newimages/property/Raw District/Gallery-7-5.jpg') }}"
+                                                <a href="{{ asset('assets/images/newimages/property/Address/11-1-2-1024x585.jpg') }}"
                                                     data-fancybox="gallery" class="image-wrap d-block">
                                                     <img class="lazyload"
-                                                        data-src="{{ asset('assets/images/newimages/property/Raw District/Gallery-7-5.jpg') }}"
-                                                        src="{{ asset('assets/images/newimages/property/Raw District/Gallery-7-5.jpg') }}" alt="">
+                                                        data-src="{{ asset('assets/images/newimages/property/Address/11-1-2-1024x585.jpg') }}"
+                                                        src="{{ asset('assets/images/newimages/property/Address/11-1-2-1024x585.jpg') }}" alt="">
                                                 </a>
                                             </div>
                                              
@@ -99,32 +99,32 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="img-thumb-pagi">
-                                                    <img src="{{ asset('assets/images/newimages/property/Raw District/Gallery-4-10.jpg') }}" alt="images">
+                                                    <img src="{{ asset('assets/images/newimages/property/Address/3-1-6-1024x585.jpg') }}" alt="images">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="img-thumb-pagi">
-                                                    <img src="{{ asset('assets/images/newimages/property/Raw District/Gallery-5-9.jpg') }}" alt="images">
+                                                    <img src="{{ asset('assets/images/newimages/property/Address/4-1-5-1024x585.jpg') }}" alt="images">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="img-thumb-pagi">
-                                                    <img src="{{ asset('assets/images/newimages/property/Raw District/Gallery-6-9.jpg') }}" alt="images">
+                                                    <img src="{{ asset('assets/images/newimages/property/Address/7-1-5-1024x585.jpg') }}" alt="images">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="img-thumb-pagi">
-                                                    <img src="{{ asset('assets/images/newimages/property/Raw District/Gallery-3-10.jpg') }}" alt="images">
+                                                    <img src="{{ asset('assets/images/newimages/property/Address/8-1-6-1024x585.jpg') }}" alt="images">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="img-thumb-pagi">
-                                                    <img src="{{ asset('assets/images/newimages/property/Raw District/Gallery-2-11.jpg') }}" alt="images">
+                                                    <img src="{{ asset('assets/images/newimages/property/Address/9-12-1024x585.jpg') }}" alt="images">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="img-thumb-pagi">
-                                                    <img src="{{ asset('assets/images/newimages/property/Raw District/Gallery-7-5.jpg') }}" alt="images">
+                                                    <img src="{{ asset('assets/images/newimages/property/Address/11-1-2-1024x585.jpg') }}" alt="images">
                                                 </div>
                                             </div>
                                         </div>
@@ -134,22 +134,22 @@
                             <div class="wg-property box-overview ">
                                 <div class="heading flex justify-between">
                                     <div class="title text-5 fw-6 text-color-heading">
-                                    Raw District 2
+                                    Address Grand
 
                                     </div>
                                     <div class="price text-5 fw-6 text-color-heading">
-                                    AED 666K
+                                    AED 17.5M
                                         
                                     </div>
                                 </div>
                                 <div class="info flex justify-between">
                                     <div class="feature">
                                         <p class="location text-1 flex items-center gap-10">
-                                            <i class="icon-location"></i>Sheikh Zayed Road
+                                            <i class="icon-location"></i>Downtown Dubai
                                         </p>
                                         <ul class="meta-list flex">
-                                            <li class="text-1 flex"><span>1, 2, 3, Studio</span>Bed</li>
-                                            <li class="text-1 flex"><span>3</span>Bath</li>
+                                            <li class="text-1 flex"><span>3, 4, 5</span>Bed</li>
+                                            <li class="text-1 flex"><span>3, 4, 5</span>Bath</li>
                                             <li class="text-1 flex"><span>850 – 3,200 </span>Sqft</li>
                                         </ul>
                                     </div>
@@ -198,7 +198,7 @@
                                             </div>
                                             <div class="content">
                                                 <div class="text-4 text-color-default">ID:</div>
-                                                <div class="text-1 text-color-heading">2297</div>
+                                                <div class="text-1 text-color-heading">55543</div>
                                             </div>
                                         </div>
                                         <div class="box-icon">
@@ -207,7 +207,7 @@
                                             </div>
                                             <div class="content">
                                                 <div class="text-4 text-color-default">Bathrooms:</div>
-                                                <div class="text-1 text-color-heading"> 3 </div>
+                                                <div class="text-1 text-color-heading">3, 4, 5 </div>
                                             </div>
                                         </div>
                                     </div>
@@ -218,7 +218,7 @@
                                             </div>
                                             <div class="content">
                                                 <div class="text-4 text-color-default">Type:</div>
-                                                <div class="text-1 text-color-heading">Apartments,<br> Office, Retail Units</div>
+                                                <div class="text-1 text-color-heading">Apartments,  <br> Duplex,</div>
                                             </div>
                                         </div>
                                         <div class="box-icon">
@@ -231,26 +231,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="wrap-box">
-                                        <div class="box-icon">
-                                            <div class="icons">
-                                                <i class="icon-Garage-1"></i>
-                                            </div>
-                                            <div class="content">
-                                                <div class="text-4 text-color-default">Garages</div>
-                                                <div class="text-1 text-color-heading">1</div>
-                                            </div>
-                                        </div>
-                                        <div class="box-icon">
-                                            <div class="icons">
-                                                <i class="icon-Hammer"></i>
-                                            </div>
-                                            <div class="content">
-                                                <div class="text-4 text-color-default">Year Built:</div>
-                                                <div class="text-1 text-color-heading">2023</div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                     <div class="wrap-box">
                                         <div class="box-icon">
                                             <div class="icons">
@@ -258,30 +239,35 @@
                                             </div>
                                             <div class="content">
                                                 <div class="text-4 text-color-default">Bedrooms:</div>
-                                                <div class="text-1 text-color-heading">1, 2, 3, Studio</div>
+                                                <div class="text-1 text-color-heading">3, 4, 5</div>
                                             </div>
                                         </div>
-                                        <div class="box-icon">
-                                            <div class="icons">
-                                                <i class="icon-Ruler"></i>
-                                            </div>
-                                            <div class="content">
-                                                <div class="text-4 text-color-default">Size:</div>
-                                                <div class="text-1 text-color-heading">900 SqFt</div>
-                                            </div>
-                                        </div>
+                                         
                                     </div>
                                 </div>
                              </div>
                              
                             <div class="wg-property box-property-detail  spacing-1">
                                 <div class="wg-title text-11 fw-6 text-color-heading">
-                                    Property Details
+                                Project Overview
                                 </div>
                                 <div class="content">
-                                    <p class="description text-1 mb-10">3
-                                    RAW District 2 on Sheikh Zayed Road is a dynamic mixed-use development within Downtown Jebel Ali, designed for modern urban living and business. The project features fully furnished studio, 1, 2 and 3-bedroom apartments alongside premium office spaces and retail outlets, offering strong long-term value in one of Dubai’s emerging growth corridors.
-                                    <br>RAW District 2 by Imtiaz Developments combines lifestyle, convenience, and investment potential within a thoughtfully planned community. Residents and businesses can enjoy a curated selection of amenities including a gym, family pool, floating pavilion, and outdoor cinema lawn, alongside wellness, recreation, and social spaces.
+                                    <p class="description text-1 mb-10">Address Grand Downtown by Nshama is a symbol of elegance in Downtown Dubai, offering luxurious 3 to 5-bedroom apartments and duplexes. This prestigious 55-story tower comprises 80 exclusive residences, designed for those who appreciate sophistication and prime location. With breathtaking views, one side captures the iconic Burj Khalifa and Downtown Dubai, while the other offers serene sea vistas, blending urban vibrancy with tranquility. Its tiered architecture creates a striking visual presence in Dubai’s skyline. Each residence is a private retreat, featuring high ceilings, retractable glass walls, and seamless indoor-outdoor integration. Thoughtful layouts, premium materials, and meticulous design enhance the luxury experience. Interiors embrace refined minimalism with custom furnishings and exquisite detailing. Luxury is evident in marble flooring, built-in wood veneer cabinets, spa-like bathrooms with soaking tubs, and floor-to-ceiling windows. Functional kitchens boast quartz countertops and premium appliances. From an infinity pool to a state-of-the-art fitness center, every space caters to discerning residents. Address Grand Downtown is more than a home—it’s an investment in exclusivity and timeless elegance.
+
+
+
+
+                                    </p>
+                                     
+                                </div>
+                                <div class="wg-title text-11 fw-6 text-color-heading">
+                                Project Highlights
+                                </div>
+                                <div class="content">
+                                    <p class="description text-1 mb-10">Prime Location – Situated in Downtown Dubai, just minutes away from Burj Khalifa, Dubai Mall, and Dubai Opera., Luxury Residences – Offering exclusive 3 to 5-bedroom apartments and duplexes with premium finishes and modern designs., Unmatched Views – Enjoy spectacular, uninterrupted panoramas of the Dubai skyline., Seamless Connectivity – Easy access to Sheikh Zayed Road, DIFC, Business Bay, and major cultural landmarks., Architectural Excellence – A masterpiece of contemporary design, blending modern aesthetics with superior craftsmanship., Strong Investment Potential – Offers high capital appreciation and strong rental yields in one of Dubai’s most prestigious neighborhoods., Reputable Developer – A distinguished project by Nshama, a trusted name in Dubai’s real estate sector., Attractive Pricing – Starting price from AED 17.5M, making it a high-value investment opportunity.
+
+
+
 
 
                                     </p>
@@ -291,11 +277,11 @@
                                     <ul>
                                         <li class="flex">
                                             <p class="fw-6">ID</p>
-                                            <p>#1234</p>
+                                            <p>55543</p>
                                         </li>
                                         <li class="flex">
                                             <p class="fw-6">Starting Price</p>
-                                            <p>AED 666,000</p>
+                                            <p>AED 17,500,000</p>
                                         </li>
                                         <li class="flex">
                                             <p class="fw-6">Size Range</p>
@@ -304,29 +290,29 @@
                                        
                                         <li class="flex">
                                             <p class="fw-6">Property Types</p>
-                                            <p>Apartments, Office, Retail Units</p>
+                                            <p>Apartments, Duplex</p>
                                         </li>
                                     </ul>
                                     <ul>
                                         <li class="flex">
                                             <p class="fw-6">Developer</p>
-                                            <p>Imtiaz Developments</p>
+                                            <p>Nshama</p>
                                         </li>
                                         <li class="flex">
                                             <p class="fw-6">Handover</p>
-                                            <p>TBA</p>
+                                            <p>2028</p>
                                         </li>
                                         <li class="flex">
                                             <p class="fw-6">Bedrooms</p>
-                                            <p>1, 2, 3, Studio</p>
+                                            <p>3, 4, 5</p>
                                         </li>
                                         <li class="flex">
                                             <p class="fw-6">Location</p>
-                                            <p>Sheikh Zayed Road</p>
+                                            <p>Downtown Dubai</p>
                                         </li>
                                         <li class="flex">
                                             <p class="fw-6">Payment Plan</p>
-                                            <p>50/50</p>
+                                            <p>70/30</p>
                                         </li>
                                         
                                     </ul>
@@ -336,50 +322,54 @@
                                 <div class="wg-title text-11 fw-6 text-color-heading">
                                     Amenities And Features
                                 </div>
-                                <p>Linar offers an exceptional array of world-class amenities designed to enhance every aspect of modern living.
+                                <p>Address Grand offers an exceptional array of world-class amenities designed to enhance every aspect of modern living.
+
+
                                 </p>
                                 <br>
                                 <div class="wrap-feature">
                                     <div class="box-feature">
                                         <ul>
                                             <li class="feature-item">
-                                            Amphitheater
+                                            Exclusive Wellness
 
                                             </li>
                                             <li class="feature-item">
-                                            Co-Working Spaces
-                                            </li>
-                                            <li class="feature-item">
-                                            Sports Courts
+                                            Rooftop Serenity
 
                                             </li>
                                             <li class="feature-item">
-                                            Yoga & Fitness Zones
+                                            The Grand Club
                                             </li>
                                             <li class="feature-item">
-                                            Kids' Playground
+                                            Active Living
                                             </li>
                                             <li class="feature-item">
-                                            Swimming Pools
+                                            Private Lounge
                                             </li>
                                             <li class="feature-item">
-                                            Pocket Gardens
+                                            Concierge Service
                                             </li>
-                                            
+                                            <li class="feature-item">
+                                            Chauffeur Service
+                                            </li>
+                                             
                                         </ul>
                                     </div>
                                     
                                    
                                 </div>
                             </div>
+                            
+                            
                             <div class="wg-property single-property-map spacing-9">
                                 <div class="wg-title text-11 fw-6 text-color-heading">Get Direction</div>
                                 <iframe class="map"
                                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d135905.11693909427!2d-73.95165795400088!3d41.17584829642291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1727094281524!5m2!1sen!2s"
                                     style="border:0;" allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                    <p>The RAW District 2 by Imtiaz location places residents and businesses in Downtown Jebel Ali directly on Sheikh Zayed Road (E11), offering seamless connectivity to major commercial hubs, lifestyle destinations, and key infrastructure across Dubai. This strategic setting enhances both convenience and long-term investment appeal.
-
+                                    <p>Address Grand Downtown at Downtown Dubai is positioned in the city’s most vibrant and prestigious neighborhood. With stunning views of Burj Khalifa and proximity to Dubai Mall, this prime location offers an unparalleled lifestyle. Nshama Address Grand Downtown provides seamless connectivity to major highways, business hubs, and cultural attractions. The advantages of investing in Nshama Address Grand include high property value, world-class amenities, and a thriving urban environment, making it a top choice for residents and investors alike.
+ <br>6 Minutes to Burj Khalifa/Dubai Mall, 11 Minutes to DIFC, 15 Minutes to Dubai Hills, 16 Minutes to Dubai International Airport, 18 Minutes to Dubai Creek Harbour, 19 Minutes to Burj Al Arab, 24 Minutes to Palm Jumeirah, 25 Minutes to Dubai Marina
                                     </p>    
                             </div>
                            
