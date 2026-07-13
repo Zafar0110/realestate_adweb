@@ -15,7 +15,7 @@
                         <div class="title-inner ">
                             <ul class="breadcrumb">
                                 <li><a class="home fw-6 text-color-3" href="index.html">Home</a></li>
-                                <li>Property Listing</li>
+                                <li>Agents Listing</li>
                             </ul>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                             </div>
                             <div class="agent-item hover-img">
                                 <div class="image-wrap">
-                                    <a href="agents-details.html">
+                                    <a href="/agent-detailed">
                                         <img class="lazyload" data-src="{{ asset('assets/images/section/agent-item-2.jpg') }}"
                                             src="{{ asset('assets/images/section/agent-item-2.jpg') }}" alt="">
                                     </a>
@@ -110,7 +110,7 @@
                                 </div>
                                 <div class="content">
                                     <div class="author">
-                                        <h5 class="name lh-30"><a href="agents-details.html">Leslie Alexander</a></h5>
+                                        <h5 class="name lh-30"><a href="/agent-detailed">Leslie Alexander</a></h5>
                                         <p class="text-2 lh-18">Sale agent</p>
                                     </div>
                                     <div class="wrap-btn-icon">
@@ -121,7 +121,7 @@
                             </div>
                             <div class="agent-item hover-img">
                                 <div class="image-wrap">
-                                    <a href="agents-details.html">
+                                    <a href="/agent-detailed">
                                         <img class="lazyload" data-src="{{ asset('assets/images/section/agent-item-3.jpg') }}"
                                             src="{{ asset('assets/images/section/agent-item-3.jpg') }}" alt="">
                                     </a>
@@ -145,7 +145,7 @@
                             </div>
                             <div class="agent-item hover-img">
                                 <div class="image-wrap">
-                                    <a href="agents-details.html">
+                                    <a href="/agent-detailed">
                                         <img class="lazyload" data-src="{{ asset('assets/images/section/agent-item-4.jpg') }}"
                                             src="{{ asset('assets/images/section/agent-item-4.jpg') }}" alt="">
                                     </a>
@@ -158,7 +158,7 @@
                                 </div>
                                 <div class="content">
                                     <div class="author">
-                                        <h5 class="name lh-30"><a href="agents-details.html">Leslie Alexander</a></h5>
+                                        <h5 class="name lh-30"><a href="/agent-detailed">Leslie Alexander</a></h5>
                                         <p class="text-2 lh-18">Sale agent</p>
                                     </div>
                                     <div class="wrap-btn-icon">
@@ -169,7 +169,7 @@
                             </div>
                             <div class="agent-item hover-img ">
                                 <div class="image-wrap">
-                                    <a href="agents-details.html">
+                                    <a href="/agent-detailed">
                                         <img class="lazyload" data-src="{{ asset('assets/images/section/agent-item-9.jpg') }}"
                                             src="{{ asset('assets/images/section/agent-item-9.jpg') }}" alt="">
                                     </a>
@@ -182,7 +182,7 @@
                                 </div>
                                 <div class="content">
                                     <div class="author">
-                                        <h5 class="name lh-30"><a href="agents-details.html">Leslie Alexander</a></h5>
+                                        <h5 class="name lh-30"><a href="/agent-detailed">Leslie Alexander</a></h5>
                                         <p class="text-2 lh-18">Sale agent</p>
                                     </div>
                                     <div class="wrap-btn-icon">
@@ -193,7 +193,7 @@
                             </div>
                             <div class="agent-item hover-img">
                                 <div class="image-wrap">
-                                    <a href="agents-details.html">
+                                    <a href="/agent-detailed">
                                         <img class="lazyload" data-src="{{ asset('assets/images/section/agent-item-10.jpg') }}"
                                             src="{{ asset('assets/images/section/agent-item-10.jpg') }}" alt="">
                                     </a>
@@ -206,7 +206,7 @@
                                 </div>
                                 <div class="content">
                                     <div class="author">
-                                        <h5 class="name lh-30"><a href="agents-details.html">Leslie Alexander</a></h5>
+                                        <h5 class="name lh-30"><a href="/agent-detailed">Leslie Alexander</a></h5>
                                         <p class="text-2 lh-18">Sale agent</p>
                                     </div>
                                     <div class="wrap-btn-icon">
@@ -217,7 +217,7 @@
                             </div>
                             <div class="agent-item hover-img">
                                 <div class="image-wrap">
-                                    <a href="agents-details.html">
+                                    <a href="/agent-detailed">
                                         <img class="lazyload" data-src="{{ asset('assets/images/section/agent-item-11.jpg') }}"
                                             src="{{ asset('assets/images/section/agent-item-11.jpg') }}" alt="">
                                     </a>
@@ -230,7 +230,7 @@
                                 </div>
                                 <div class="content">
                                     <div class="author">
-                                        <h5 class="name lh-30"><a href="agents-details.html">Leslie Alexander</a></h5>
+                                        <h5 class="name lh-30"><a href="/agent-detailed">Leslie Alexander</a></h5>
                                         <p class="text-2 lh-18">Sale agent</p>
                                     </div>
                                     <div class="wrap-btn-icon">
@@ -241,7 +241,7 @@
                             </div>
                             <div class="agent-item hover-img">
                                 <div class="image-wrap">
-                                    <a href="agents-details.html">
+                                    <a href="/agent-detailed">
                                         <img class="lazyload" data-src="{{ asset('assets/images/section/agent-item-12.jpg') }}"
                                             src="{{ asset('assets/images/section/agent-item-12.jpg') }}" alt="">
                                     </a>
@@ -254,7 +254,7 @@
                                 </div>
                                 <div class="content">
                                     <div class="author">
-                                        <h5 class="name lh-30"><a href="agents-details.html">Leslie Alexander</a></h5>
+                                        <h5 class="name lh-30"><a href="/agent-detailed">Leslie Alexander</a></h5>
                                         <p class="text-2 lh-18">Sale agent</p>
                                     </div>
                                     <div class="wrap-btn-icon">
@@ -265,7 +265,7 @@
                             </div>
                             <div class="agent-item hover-img ">
                                 <div class="image-wrap">
-                                    <a href="agents-details.html">
+                                    <a href="/agent-detailed">
                                         <img class="lazyload" data-src="{{ asset('assets/images/section/agent-item-13.jpg') }}"
                                             src="{{ asset('assets/images/section/agent-item-13.jpg') }}" alt="">
                                     </a>
@@ -278,7 +278,7 @@
                                 </div>
                                 <div class="content">
                                     <div class="author">
-                                        <h5 class="name lh-30"><a href="agents-details.html">Leslie Alexander</a></h5>
+                                        <h5 class="name lh-30"><a href="/agent-detailed">Leslie Alexander</a></h5>
                                         <p class="text-2 lh-18">Sale agent</p>
                                     </div>
                                     <div class="wrap-btn-icon">
@@ -289,7 +289,7 @@
                             </div>
                             <div class="agent-item hover-img">
                                 <div class="image-wrap">
-                                    <a href="agents-details.html">
+                                    <a href="/agent-detailed">
                                         <img class="lazyload" data-src="{{ asset('assets/images/section/agent-item-14.jpg') }}"
                                             src="{{ asset('assets/images/section/agent-item-14.jpg') }}" alt="">
                                     </a>
@@ -302,7 +302,7 @@
                                 </div>
                                 <div class="content">
                                     <div class="author">
-                                        <h5 class="name lh-30"><a href="agents-details.html">Leslie Alexander</a></h5>
+                                        <h5 class="name lh-30"><a href="/agent-detailed">Leslie Alexander</a></h5>
                                         <p class="text-2 lh-18">Sale agent</p>
                                     </div>
                                     <div class="wrap-btn-icon">
@@ -313,7 +313,7 @@
                             </div>
                             <div class="agent-item hover-img">
                                 <div class="image-wrap">
-                                    <a href="agents-details.html">
+                                    <a href="/agent-detailed">
                                         <img class="lazyload" data-src="{{ asset('assets/images/section/agent-item-15.jpg') }}"
                                             src="{{ asset('assets/images/section/agent-item-15.jpg') }}" alt="">
                                     </a>
@@ -326,7 +326,7 @@
                                 </div>
                                 <div class="content">
                                     <div class="author">
-                                        <h5 class="name lh-30"><a href="agents-details.html">Leslie Alexander</a></h5>
+                                        <h5 class="name lh-30"><a href="/agent-detailed">Leslie Alexander</a></h5>
                                         <p class="text-2 lh-18">Sale agent</p>
                                     </div>
                                     <div class="wrap-btn-icon">
@@ -337,7 +337,7 @@
                             </div>
                             <div class="agent-item hover-img">
                                 <div class="image-wrap">
-                                    <a href="agents-details.html">
+                                    <a href="/agent-detailed">
                                         <img class="lazyload" data-src="{{ asset('assets/images/section/agent-item-3.jpg') }}"
                                             src="{{ asset('assets/images/section/agent-item-3.jpg') }}" alt="">
                                     </a>
@@ -350,7 +350,7 @@
                                 </div>
                                 <div class="content">
                                     <div class="author">
-                                        <h5 class="name lh-30"><a href="agents-details.html">Leslie Alexander</a></h5>
+                                        <h5 class="name lh-30"><a href="/agent-detailed">Leslie Alexander</a></h5>
                                         <p class="text-2 lh-18">Sale agent</p>
                                     </div>
                                     <div class="wrap-btn-icon">
